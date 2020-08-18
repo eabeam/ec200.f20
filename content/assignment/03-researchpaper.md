@@ -1,18 +1,32 @@
-Version: Spring 2018\
-EC200: Econometrics and Applications
+---
+title: "Research Paper: Research Proposal"
+linktitle: "03 Research Proposal"
+date: "2020-06-22"
+due_date: "2020-06-22"
+due_time: "11:59 PM"
+menu:
+  assignment:
+    parent: Research Paper
+    weight: 4
+type: docs
 
-**Research Proposal**\
+editor_options: 
+  chunk_output_type: console
+---
 
-Objective {#objective .unnumbered}
-=========
+Version: 18 August 2020 
+
+
+## Objective {#objective .unnumbered}
+
 
 The goal of this submission is for you to translate your research idea
 and data set into the outline of a workable paper. You can think of your
 research proposal as summary of what your question is, why it matters,
 and how you intend to solve it.
 
-Components {#components .unnumbered}
-==========
+## Components {#components .unnumbered}
+
 
 Your proposal should be [four- to six-pages long]{.ul} (double spaced,
 excluding tables) and include the following components.
@@ -48,15 +62,14 @@ providing feedback to help you turn your proposal into a final paper
 
 **Consult the grading rubric for additional guidance!**
 
-Submission requirements {#submission-requirements .unnumbered}
-=======================
+## Submission requirements {#submission-requirements .unnumbered}
 
 Your research proposal should be written in paragraph form (i.e.
 complete sentences, not bullet points), copy-edited for
 grammatical/spelling errors, and submitted as a word document.
 
-Examples {#examples .unnumbered}
-========
+## Examples {#examples .unnumbered}
+
 
 See Blackboard for example proposals. These are not perfect, but they
 are all of high quality.

@@ -1,30 +1,27 @@
 ---
-title: "Research Paper"
-linktitle: "Research Paper2"
+title: "Research Paper: Overview"
+linktitle: "01 Overview"
 date: "2020-06-22"
 due_date: "2020-06-22"
 due_time: "11:59 PM"
 menu:
   assignment:
     parent: Research Paper
-    weight: 3
+    weight: 1
 type: docs
 weight: 3
 editor_options: 
   chunk_output_type: console
 ---
 
-Version: Spring 2018\
-EC200: Applied Econometrics
+Version: 18 August 2020 
 
-**EC200: Research Paper**\
 
 One main product of the course is an original research paper you'll
 produce that incorporates econometric data using the methods we've
 learned in class. **You can work alone or in pairs.**
 
-Learning objectives {#learning-objectives .unnumbered}
-===================
+## Learning objectives {#learning-objectives .unnumbered}
 
 -   Develop clear, answerable research questions and link them to
     economic theory.
@@ -36,8 +33,7 @@ Learning objectives {#learning-objectives .unnumbered}
 
 -   Strengthen written and oral communication skills
 
-Topic selection {#topic-selection .unnumbered}
-===============
+## Topic selection {#topic-selection .unnumbered}
 
 Select a research question that is interesting to you and answerable
 with data that you can obtain. Your question should accomplish the
@@ -54,11 +50,9 @@ following.
     interesting time-series questions, but we will not cover these
     topics in EC200.
 
-Research paper process {#research-paper-process .unnumbered}
-======================
+## Research paper process {#research-paper-process .unnumbered}
 
-Research ideas {#research-ideas .unnumbered}
---------------
+### Research ideas {#research-ideas .unnumbered}
 
 Prepare a set of 3 research ideas. An "idea" only needs to consist of
 about 1-2 paragraphs, which should include a research question, a
@@ -75,8 +69,7 @@ back-up plan).
 After your idea discussion, you may decide to pair up with a classmate.
 That's great!
 
-Data preparation  {#data-preparation .unnumbered}
-----------------
+### Data preparation  {#data-preparation .unnumbered}
 
 In research, sometimes questions drive the data we choose, and sometimes
 the data we have drive the questions we ask. With only one semester to
@@ -95,8 +88,7 @@ submission should include the following:
 -   In your submission, include the Stata do-file that produces your
     summary statistics, and the accompanying log.
 
-Research proposal  {#research-proposal .unnumbered}
------------------
+### Research proposal  {#research-proposal .unnumbered}
 
 From the list of topics, choose and develop one research idea for your
 proposal presentation. Write up a **four- to six-page** proposal (double
@@ -126,22 +118,19 @@ Your research proposal should include the following components:
 A classmate will provide a peer review of your proposal, providing
 feedback to help you turn your proposal into a final paper
 
-Rough draft (optional)  {#rough-draft-optional .unnumbered}
-----------------------
+### Rough draft (optional)  {#rough-draft-optional .unnumbered}
 
 You may submit one rough draft to me for comments. This is optional, but
 I **highly recommend** you do it, because the early deadline can help
 you stay on track, and you'll have a chance to get an early sense of how
 things are going.
 
-Presentation {#presentation .unnumbered}
-------------
+### Presentation {#presentation .unnumbered}
 
 You'll make a brief (5-10 minute) presentation of your paper in the
 final week of class. I will provide specifics later.
 
-Paper components  {#paper-components .unnumbered}
-================
+## Paper components  {#paper-components .unnumbered}
 
 A number of excellent guides can help you put together an effective and
 interesting research paper. One of my favorites is by Plamen Nikolov,
@@ -152,8 +141,7 @@ In general, it should include the following components: abstract (fewer
 than 250 words), introduction, background, methodology, results,
 conclusion, references, figures, and tables.
 
-Parameters {#parameters .unnumbered}
-----------
+### Parameters {#parameters .unnumbered}
 
 -   All paper elements -- idea proposal, paper proposal, first draft,
     peer review forms, final research paper -- should be submitted
@@ -181,35 +169,35 @@ Parameters {#parameters .unnumbered}
     and a log-file that shows your results. These do not count toward
     your page limit, and they should be submitted as separate files.
 
-Deadlines {#deadlines .unnumbered}
-=========
+### Deadlines {#deadlines .unnumbered}
 
 See course calendar for deadlines. Submit materials by **11:59pm** on
 the deadline. Submit all assignments via Blackboard. Late assignments
-will be penalized 10% per day, and they may not receive detailed
+will be penalized 10\% per day, and they may not receive detailed
 feedback. If something awful happens (medical emergency, computer crash,
 etc.) that affects your ability to meet a deadline, please let me know
 ASAP so we can make arrangements.
 
-Grading {#grading .unnumbered}
-=======
+### Grading {#grading .unnumbered}
 
 I will provide formal or informal grading rubrics for each component, so
 you have a clear idea of how you'll be graded.
 
-  ------------- ------------------- ----- -----
-  Process                                 30%
-                Research ideas      5%    
-                Data set            5%    
-                Research proposal   10%   
-                Peer review         5%    
-                Rough draft         0%    
-                Presentation        5%    
-  Final draft                             70%
-  ------------- ------------------- ----- -----
 
-FAQ {#faq .unnumbered}
-===
+| |||| 
+| :------------- | :----------: |  :----------: |  :----------: |  :----------: | 
+|  Process 	|                            	|  	|  30\%|
+|              		|Research ideas      	|5\% 	|   |
+|             		| Data set          	 | 5\% 	|	|   
+ |           		|Research proposal 	|  10\%   ||
+|          		| Peer review        | 5\%    ||
+|         		| Rough draft        | 0\%    ||
+|        		| Presentation       | 5\%    ||
+|  Final draft	|                          |  | 70\%|
+
+
+## FAQ {#faq .unnumbered}
+
 
 -   *How does my group size affect grading?* The grading rubric is the
     same regardless of your group sizes. However, I expect that in a
@@ -236,8 +224,7 @@ FAQ {#faq .unnumbered}
     much analysis is involved will depend on the question you pose and
     your approach to answering it.
 
-Recommended data sources {#recommended-data-sources .unnumbered}
-========================
+## Recommended data sources {#recommended-data-sources .unnumbered}
 
 See p627 of Wooldridge (end of Chapter 19, available on Blackboard) for
 links and lists of suggested data sets. Additional suggestions:
@@ -285,8 +272,7 @@ links and lists of suggested data sets. Additional suggestions:
     to getting primary data, and if it can be collected in a timely
     fashion.
 
-Suggested topics  {#suggested-topics .unnumbered}
-================
+## Suggested topics  {#suggested-topics .unnumbered}
 
 The following suggested topics are taken from Wooldridge. These can be
 used as a starting point for your own idea generation. You can use these

@@ -1,3 +1,19 @@
+---
+title: "Research Paper: Checklist"
+linktitle: "05 Checklist"
+date: "2020-06-22"
+due_date: "2020-06-22"
+due_time: "11:59 PM"
+menu:
+  assignment:
+    parent: Research Paper
+    weight: 5
+type: docs
+weight: 3
+editor_options: 
+  chunk_output_type: console
+---
+
 **[Research Paper Checklist]{.ul}**
 
 *I've put together this set of guidelines to help you make sure your

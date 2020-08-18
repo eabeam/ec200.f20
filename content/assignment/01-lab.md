@@ -1,5 +1,5 @@
 ---
-title: "Lab 1"
+title: "Lab 1: Introduction"
 linktitle: "Lab 1"
 date: "2020-06-15"
 due_date: "2020-06-15"
@@ -14,72 +14,7 @@ editor_options:
   chunk_output_type: console
 ---
 
-
-Version: Spring 2018\
-EC200 Econometrics and Applications
-
-**Stata Lab 1: Introduction**[^1]\
-
-Summary {#summary .unnumbered}
-=======
-
-General command structure:
-
-Key commands  {#key-commands .unnumbered}
-------------
-
-\|l \|l \|p0.5\| &`log using logfile1.log`& open and log using
-`logfile1.log`\
-&`log close` & close log\
-& `use dataset.dta, clear` & open dataset `dataset.dta `, clear out old
-one\
-
-3 &`describe var1 var2 ... ` & charcteristics of `var1`, `var2`, etc.\
-
-4 & `browse var1 var2 ... ` & open data browser, display
-`var1, var2 .. `\
-5 & `lookfor text1 ` & search for *text1* in variable
-names/descriptions\
-& `tabulate var1 ` & make a frequency table of `var1`.\
-& `tabulate var1 var2` & make a cross-tabulation of `var1` and ` var2`.\
-& `summarize var1 ` & descriptive statistics for `var1`.\
-& `summarize var1 , detail` & detailed descriptive statistics for
-`var1`.\
-& `help command ` & open help files for `command`.\
-
-Logic statements  {#logic-statements .unnumbered}
-----------------
-
-  -------------------------- ----------------------------------------
-  and                                           &
-  or                          $|$ (vertical bar, on same key as "/")
-                             
-  equal to                                      ==
-  not equal to                                  !=
-                             
-  greater than                                  \>
-  less than                                     \>
-  greater than or equal to                     \>=
-  less than or equal to                        \<=
-  -------------------------- ----------------------------------------
-
--   `tab bac10 if gdl==1 & sl70plus == 0`: Tabulates the variable
-    `bac10` but only if `gdl` equals one *and* `sl70plus` equals 0
-
--   `tab bac10 if year >=2000`: Tabulates the variable `bac10` for the
-    years 2000, 2001, 2002, etc.
-
--   `tab bac10 if year !=2000`: Tabulates the variable `bac10` for every
-    year *but* 2000
-
--   `tab bac10 if year < 2008 & year > 2005`: Tabulates the variable
-    `bac10` 2006 and 2007
-
--   `tab bac10 if year < 2008 | year > 2005`: Tabulates the variable
-    `bac10` is less than 2008 OR greater than 2005 (all years!)
-
-Objectives {#objectives .unnumbered}
-==========
+## Objectives {#objectives .unnumbered}
 
 By the end of this tutorial you should be able to complete the following
 tasks in Stata:
@@ -96,8 +31,64 @@ tasks in Stata:
 
 -   How to get help with Stata
 
-Hey, Stata. It's nice to meet you
-=================================
+## General command structure:
+
+`do {something} ... with {variable(s) x}...if {something is true..}, options`
+
+
+### Key commands  {#key-commands .unnumbered}
+
+
+|command|description|
+| :------------- | ----------: |  
+|`log using logfile1.log`| open and log using `logfile1.log`|
+|`log close` | close log |
+| `use dataset.dta, clear` | open dataset `dataset.dta `, clear out old one
+ |`describe var1 var2 ... ` | charcteristics of `var1`, `var2`, etc.|
+ | `browse var1 var2 ... ` | open data browser, display `var1, var2 .. `|
+ | `lookfor text1 ` | search for *text1* in variable names/descriptions|
+| `tabulate var1 ` | make a frequency table of `var1`.|
+| `tabulate var1 var2` | make a cross-tabulation of `var1` and ` var2`.|
+| `summarize var1 ` | descriptive statistics for `var1`.|
+| `summarize var1 , detail` | detailed descriptive statistics for `var1`.|
+| `help command ` | open help files for `command`.|
+
+### Logic statements  {#logic-statements .unnumbered}
+
+
+
+|operation|command|
+| :------------- | :----------: |  
+ | and                 |                          \&|
+ | or                    |      $|$ (vertical bar, on same key as "/")|
+ |                         |   |
+  |equal to            |                          ==|
+ | not equal to       |                           !=|
+  |                           ||
+ | greater than         |                         \>|
+  |less than               |                      \>|
+ | greater than or equal to |                    \>=|
+  |less than or equal to       |                 \<=|
+
+
+-   `tab bac10 if gdl==1 & sl70plus == 0`
+	- Tabulates the variable    `bac10` but only if `gdl` equals one *and* `sl70plus` equals 0
+
+-   `tab bac10 if year >=2000`
+	- Tabulates the variable `bac10` for the years 2000, 2001, 2002, etc.
+
+-   `tab bac10 if year !=2000`: 
+	- Tabulates the variable `bac10` for every   year *but* 2000
+
+-   `tab bac10 if year < 2008 & year > 2005`
+	- Tabulates the variable  `bac10` 2006 and 2007
+
+-   `tab bac10 if year < 2008 | year > 2005`
+	- Tabulates the variable     `bac10` is less than 2008 OR greater than 2005 (all years!)
+
+
+
+## Hey, Stata. It's nice to meet you
 
 Start by opening Stata. You should have a window that looks something
 like this (on a PC):
@@ -112,8 +103,7 @@ Also especially helpful are the following buttons:
 
 ![image](stata2.png)
 
-Log files
-=========
+## Log files
 
 If you want to record anything that you do in a STATA session so that
 you can look at results or commands later, you need to open a log-file.
@@ -146,8 +136,7 @@ easier for you to edit, cut and paste your log in any text editor.*
 
 Now that you have a log file open, we can start our STATA session.
 
-Opening data files
-==================
+## Opening data files
 
 Stata data files end with the extension `.dta`, and they can only be
 read by Stata. You can import text files and excel files into Stata, and
@@ -172,8 +161,7 @@ States in 2004.
 You should now see the list of variables appear in the Variables window,
 with the variable name, variable label, and some other information.
 
-Looking at data
-===============
+## Looking at data
 
 Let's take a more detailed look at the variables in the dataset.
 
@@ -211,8 +199,7 @@ Note the following:
 
 How many observations are there? What type of data set is this?
 
-Examining variables
--------------------
+## Examining variables
 
 Let's look at the variables that are included in the data set. There is
 an efficient way to find the names of variables you are interested in.
@@ -231,14 +218,15 @@ observations. Use help for details:
 
 `help tab`
 
-\
+
 
 When you are analyzing variables, you will want to think carefully about
 whether you should be looking at row percentages, column percentages, or
 cell percentages.
 
-Lab Exercise
-============
+---
+
+## Lab Exercise 1 {#lab-1 .unnumbered}
 
 1.  How many states have graduated drivers license laws (GDLs)? How many
     states have speed limits of 70 mph or higher (including no speed

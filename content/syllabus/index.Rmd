@@ -3,12 +3,12 @@ title: Syllabus
 slug: syllabus
 citeproc: true
 type: book
-bibliography: ../../static/bib/references.bib
-csl: ../../static/bib/chicago-syllabus-no-bib.csl
+#bibliography: ../../static/bib/references.bib
+#csl: ../../static/bib/chicago-syllabus-no-bib.csl
+
 output:
   blogdown::html_page:
     toc: true
-    fig_caption: false
 
 ---
 
@@ -182,7 +182,7 @@ but note that lab grades can only be submitted if you attend class.
 -   I will never curve quizzes down, but I may curve them up if the
     median grade is less than a B-.
 
-# Quizzes {#quizzes .unnumbered}
+## Quizzes {#quizzes .unnumbered}
 
 
 There are two unit quizzes (15% each) and one stats quiz (5%). All
@@ -190,7 +190,7 @@ quizzes are open book. You should not collaborate. Quizzes are not
 explicitly cumulative, but you'll need to master skills from earlier
 chapters to tackle the newer material.
 
-# Frequently Asked Questions {#frequently-asked-questions .unnumbered}
+## Frequently Asked Questions {#frequently-asked-questions .unnumbered}
 
 
 1.  *I don't remember ANYTHING from statistics. Will I be able to pass
@@ -220,12 +220,12 @@ chapters to tackle the newer material.
     project if you decide not to use Stata, and you will still be
     responsible for any Stata-related questions that come up on quizzes.
 
-# I am in college and having some problems {#i-am-in-college-and-having-some-problems .unnumbered}
+## I am in college and having some problems {#i-am-in-college-and-having-some-problems .unnumbered}
 
 Sometimes life goes bananas. Or awful things happen. This is so very,
 very common. You are not alone, and the university has support for you.
 
-## I have a nasty cold {#i-have-a-nasty-cold .unnumbered}
+### I have a nasty cold {#i-have-a-nasty-cold .unnumbered}
 
 
 Get better, get some sleep. Skip class and rest. (Unless it's an exam;
@@ -233,7 +233,7 @@ you should probably come and bring a lot of tissues.) This is why you
 can drop a few assignments. I don't need to know about this, and I won't
 excuse your absences.
 
-## Oh no, it's actually pneumonia (aka I am REALLY SICK or REALLY HURT) {#oh-no-its-actually-pneumonia-aka-i-am-really-sick-or-really-hurt .unnumbered}
+### Oh no, it's actually pneumonia (aka I am REALLY SICK or REALLY HURT) {#oh-no-its-actually-pneumonia-aka-i-am-really-sick-or-really-hurt .unnumbered}
 
 
 Please reach out to student services at your college. They will help
@@ -244,13 +244,13 @@ reach out to me before or after you get in touch with the Dean's office,
 and I'm happy to work through hypotheticals (ie, I have a concussion and
 I can't decide whether to take the next quiz).
 
-I'm experiencing some serious family emergencies {#im-experiencing-some-serious-family-emergencies .unnumbered}
-------------------------------------------------
+### I'm experiencing some serious family emergencies {#im-experiencing-some-serious-family-emergencies .unnumbered}
+
 
 Same as above, reach out to student services through your college. They
 are here to help you.
 
-## My mental health is not so good {#my-mental-health-is-not-so-good .unnumbered}
+### My mental health is not so good {#my-mental-health-is-not-so-good .unnumbered}
 
 
 Please consider reaching out to CAPS

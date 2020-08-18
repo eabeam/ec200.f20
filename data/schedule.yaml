@@ -1,15 +1,17 @@
 lessons:
-  - title: 'Capitalism, markets, and public policy'
+  - title: 'Course Schedule (Version 18 August)'
     header: True
 
-  - title: '<span class="content-title">Capitalism and measurement</span>'
-    session: "Session 1"
-    date: "June 8–June 12"
+  - title: '<span class="content-title">Introduction/Review</span>'
+    week: "Week 1"
+    session: "M"
+    date: "August 31"
     content: "01-content"
-    bg: 1
+    bg: 0
 
-  - title: '<span class="content-title">Governments and institutions</span>'
-    session: "Session 2"
+  - title:'[Stata Lab](/content/assignment/lab-01)'
+    week: "Week 1"
+    session: "W"
     content: "02-content"
     bg: 1
 
@@ -23,7 +25,7 @@ lessons:
     assignment: "01-weekly-report"
     bg: 1
     bottomborder: True
- 
+
   - title: '<span class="content-title">Social interactions and economic outcomes</span>'
     session: "Session 3"
     date: "June 15–19"
@@ -64,7 +66,7 @@ lessons:
     assignment: "03-weekly-report"
     bg: 1
     bottomborder: True
-   
+
   - title: '<span class="content-title">The firm</span>'
     session: "Sessions 7–8"
     date: "June 29–July 3"
@@ -97,14 +99,14 @@ lessons:
     date: "July 13"
     assignment: "05-weekly-report"
     bg: 1
-  
+
   - title: '<i class="fas fa-star"></i> **Exam 1**'
     date: "July 10–July 17"
     bg: 3
 
   - title: 'Market failures and institutions'
     header: True
-    
+
   - title: '<span class="content-title">Institutions, power, and inequality</span>'
     session: "Session 11"
     date: "July 13-17"

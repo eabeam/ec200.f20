@@ -1,0 +1,96 @@
+---
+
+
+
+
+
+title: Week 2
+summary: Here we describe how to add a page to your site.
+date: "2018-06-28T00:00:00Z"
+
+reading_time: true  # Show estimated reading time?
+share: true  # Show social sharing links?
+profile: true  # Show author profile?
+comments: true  # Show comments?
+
+# Optional header image (relative to `static/img/` folder).
+header:
+  caption: ""
+  image: ""
+  
+  # Academic page type (do not modify).
+type: book
+toc: true 
+# Position of this page in the menu. Remove this option to sort alphabetically.
+weight: 1
+---
+
+{{< icon name="terminal" pack="fas" >}} Terminal  
+{{< icon name="python" pack="fab" >}} Python  
+{{< icon name="r-project" pack="fab" >}} R
+
+This is a {{< hl >}}highlighted quote{{< /hl >}}.
+
+I have more [^1] to say.
+
+[^1]: Footnote example.
+
+
+```mermaid
+graph TD;
+  A-->B;
+  A-->C;
+  B-->D;
+  C-->D;
+```
+
+
+| Column 1       | Column 2     | Column 3     |
+| :------------- | :----------: | -----------: |
+|  Cell Contents | More Stuff   | And Again    |
+| You Can Also   | Put Pipes In | Like this \| |
+
+
+
+Column 1 | Column 2 | Column 3
+--- | --- | ---
+**Things** | _Don't_ | [Need](http://makeuseof.com)
+To | *__Look__* | `Pretty`
+
+$$\gamma_{n} = \frac{ 
+\left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T 
+\left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}
+{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
+
+You should absorb/read/review content _before_ coming to class! Note that some content will be available only on our [Blackboard](http://bb.uvm.edu) site. 
+
+
+|---|---|---|---|
+|Week|Day|Content|Due|
+|Test|Test|test|test|
+
+## Week 1 - August 31 (M)
+
+- [Khan Academy - Significance Testing](https://www.khanacademy.org/math/ap-statistics/tests-significance-ap)
+
+
+## Week 1 - August 31 (M)
+
+- [Khan Academy - Significance Testing](https://www.khanacademy.org/math/ap-statistics/tests-significance-ap)
+
+## Week 1 - August 31 (M)
+
+- [Khan Academy - Significance Testing](https://www.khanacademy.org/math/ap-statistics/tests-significance-ap)
+
+## Week 1 - August 31 (M)
+
+- [Khan Academy - Significance Testing](https://www.khanacademy.org/math/ap-statistics/tests-significance-ap)
+
+## Week 1 - August 31 (M)
+
+- [Khan Academy - Significance Testing](https://www.khanacademy.org/math/ap-statistics/tests-significance-ap)
+
+## Week 1 - August 31 (M)
+
+- [Khan Academy - Significance Testing](https://www.khanacademy.org/math/ap-statistics/tests-significance-ap)
+

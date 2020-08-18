@@ -1,0 +1,62 @@
+Version: Spring 2018\
+EC200: Econometrics and Applications
+
+**Research Proposal**\
+
+Objective {#objective .unnumbered}
+=========
+
+The goal of this submission is for you to translate your research idea
+and data set into the outline of a workable paper. You can think of your
+research proposal as summary of what your question is, why it matters,
+and how you intend to solve it.
+
+Components {#components .unnumbered}
+==========
+
+Your proposal should be [four- to six-pages long]{.ul} (double spaced,
+excluding tables) and include the following components.
+
+-   Clearly stated research question. What hypotheses are you testing?
+
+-   Motivation - why is this important/interesting?
+
+-   Link to related literature - what do we already know?
+
+-   Data set - description of data set - make sure you include the
+    sources!
+
+-   Empirical specification: You **must** include the empirical
+    specification of the regression(s) you are estimating, along with a
+    clear description of what each variable is.
+
+-   Planned analysis: How will your results answer your research
+    question? What challenges/limitations will you face? This is a good
+    place to discuss any omitted variable bias, other possible
+    violations of our assumptions
+
+-   Bibliography - for any references cited in your proposal plus any
+    data sources
+
+-   (Optional) Outline of tables (not in page limit): In as much detail
+    as possible, outline the tables you plan to include (no numbers
+    necessary)
+
+Keep in mind that the more detail you include, the better the feedback
+you'll receive! A classmate will provide a peer review of your proposal,
+providing feedback to help you turn your proposal into a final paper
+
+**Consult the grading rubric for additional guidance!**
+
+Submission requirements {#submission-requirements .unnumbered}
+=======================
+
+Your research proposal should be written in paragraph form (i.e.
+complete sentences, not bullet points), copy-edited for
+grammatical/spelling errors, and submitted as a word document.
+
+Examples {#examples .unnumbered}
+========
+
+See Blackboard for example proposals. These are not perfect, but they
+are all of high quality.

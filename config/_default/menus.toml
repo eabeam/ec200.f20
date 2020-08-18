@@ -3,36 +3,62 @@
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
 
-[[main]]
-  name = "Home"
-  url = "#about"
-  weight = 10
 
 [[main]]
   name = "Syllabus"
-  url = "#syllabus"
+  url = "/syllabus/"
   weight = 20
 
 [[main]]
   name = "Schedule"
-  url = "#schedule"
+  url = "/schedule/"
   weight = 30
 
 [[main]]
   name = "Content"
-  url = "#content"
+  url = "/content/"
   weight = 40
 
 [[main]]
   name = "Assignments"
-  url = "#assignments"
-  weight = 60
+  url = "/assignment/"
+  weight = 50
 
 
 [[main]]
   name = "Resources"
-  url = "#resources"
+  url = "/resources/"
   weight = 60
+
+
+
+[[assignment]]
+  name = "Overview"
+  weight = 1
+
+[[assignment]]
+  name = "Problem Sets"
+  weight = 2
+
+
+[[assignment]]
+  name = "Labs"
+  weight = 3
+
+
+[[assignment]]
+  name = "Research Paper"
+  weight = 4
+
+
+[[content]]
+  name = "Overview"
+  weight = 1
+
+  [[content]]
+  name = "Content"
+  weight = 2
+
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

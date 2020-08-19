@@ -1,0 +1,35 @@
+---
+title: Assignment overview
+menu:
+  assignment:
+    parent: Overview
+    weight: 1
+type: docs
+weight: 1
+output:
+  blogdown::html_page:
+    toc: true
+---
+
+# Video quizzes {#video-quizzes .unnumbered}
+
+Each chapter includes a set of enthusiastic, but under-produced videos. After reviewing them, take the video quiz on [Blackboard](http://bb.uvm.edu) *before* coming to class. You can take as many attempts as you need, but you must score at least 80\% for  credit.
+
+# Problem sets {#problem-sets .unnumbered}
+
+You'll be assigned semi-weekly problem sets. Why? Practice! These will cover theoretical and applied problem - the non-stata part of the course. Problem sets are graded on completion. I will check to make
+sure you reasonably attempted the problems, and you'll score zero, one, or two points. 
+
+# Labs {#labs .unnumbered}
+
+We will have labs about once a week, as noted in the [class schedule](/content/schedule). Labs will give you a chance to apply your econometrics knowledge and build your Stata skills. We will review the data and key commands together in class, and then break to work through the problem sets. Bring any questions to our Friday Q \& A sessions. I strongly encourage you to work
+with others, but you need to submit your labs individually
+
+Labs also will be graded on completion. I will check to make
+sure you reasonably attempted the problems, and you'll score zero, one, or two points. For full credit, you *must* include a log-file and do-file. 
+
+# Research paper {#researchpaper .unnumbered}
+
+It's going to be great! In this class, you'll write a research paper on a topic of your choosing. There are lots of graded steps along the way. You can work individually or in pairs. Get all the details in our [first assignment sheet](/assignment/01-researchpaper).
+
+ **Please submit all assignments through Blackboard. If you encounter technical issues, e-mail is a good last resort.**

@@ -9,7 +9,7 @@ lessons:
     content: "01-content"
     bg: 0
 
-  - title:'[Stata Lab](/content/assignment/lab-01)'
+  - title: 'Stata Lab'
     week: "Week 1"
     session: "W"
     content: "02-content"

@@ -9,6 +9,7 @@ menu:
     parent: Labs
     weight: 1
 type: docs
+draft: true
 weight: 1
 editor_options: 
   chunk_output_type: console

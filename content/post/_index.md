@@ -19,4 +19,4 @@ image:
 projects: []
 ---
 
-THIS IS HERE
+This is the index page, where I tell you I have announcements. **announcements**

@@ -9,10 +9,11 @@ date: "2020-08-19"
 start_date: "2020-09-07"
 end_date: "2020-09-11"
 
-reading_time: false  # Show estimated reading time?
-share: false  # Show social sharing links?
-profile: false  # Show author profile?
-comments: false  # Show comments?
+
+menu:
+  content:
+    parent: Course content
+    weight: 2
   
   # Academic page type (do not modify).
 type: docs
@@ -25,8 +26,7 @@ output:
 pdf: /slides/ch03-slides.pdf
 thumb: /slides/ch03-slides.png
 
-# Position of this page in the menu. Remove this option to sort alphabetically.
-weight: 2
+
 ---
 
 {{< icon name="terminal" pack="fas" >}} Terminal  

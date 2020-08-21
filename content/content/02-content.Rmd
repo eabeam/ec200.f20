@@ -5,7 +5,7 @@ title: Week 2 - Statistics Review
 sitetitle: Week 2
 summary: Here we describe how to add a page to your site.
 
-date: "2020-08-19"
+date: "2020-08-20"
 start_date: "2020-09-07"
 end_date: "2020-09-11"
 
@@ -29,72 +29,54 @@ thumb: /slides/ch03-slides.png
 
 ---
 
-{{< icon name="terminal" pack="fas" >}} Terminal  
-{{< icon name="python" pack="fab" >}} Python  
-{{< icon name="r-project" pack="fab" >}} R
+## Overview
 
-This is a {{< hl >}}highlighted quote{{< /hl >}}.
+Welcome to Week 2! Statistical review continues apace. 
 
-I have more [^1] to say.
+As before, what you should do this week and the next week depends on your background:
 
-[^1]: Footnote example.
-
-
-```mermaid
-graph TD;
-  A-->B;
-  A-->C;
-  B-->D;
-  C-->D;
-```
+### I took EC170/STAT141 recently and remember some stuff
+1. Read through SW, and dig deeper into anything that doesn't look familiar. 
+2. Watch the class videos. 
+3. Use the Khan Academy to clarify anything you feel a bit fuzzy on. 
+4. Make sure you can do the practice problems. 
 
 
-| Column 1       | Column 2     | Column 3     |
-| :------------- | :----------: | -----------: |
-|  Cell Contents | More Stuff   | And Again    |
-| You Can Also   | Put Pipes In | Like this \| |
+### Everyone else
+1. Start by reviewing the Khan Academy videos 
+2. Work through *all* the Khan Academy practice problems. 
+3. Watch the class videos 
+4. Head into the practice problems, and review concepts where you are still stuck.
+
+
+## Reading Guide
+
+**Chapter 3: Review of Statistics**
+
+This is the material you should know,  along with supports from [Khan Academy (<i class="fas fa-tv"> </i>)](https://www.khanacademy.org/math/ap-statistics/). Remember that you don't need to memorize formulas! 
 
 
 
-Column 1 | Column 2 | Column 3
---- | --- | ---
-**Things** | _Don't_ | [Need](http://makeuseof.com)
-To | *__Look__* | `Pretty`
+- SW 3.1	Estimation of the population mean 
+  - Don’t worry too much about BLUE, we’ll come back to it. But make sure you get bias, consistency, and efficiency
+   - [<i class="fas fa-tv"> </i> Discrete random variables](https://www.khanacademy.org/math/ap-statistics/random-variables-ap#discrete-random-variables)
+- SW 3.2	Hypothesis tests concerning the population mean
+  - [<i class="fas fa-tv"> </i> Testing hypotheses about a mean](https://www.khanacademy.org/math/ap-statistics/tests-significance-ap#one-sample-t-test-mean)
 
-$$\gamma_{n} = \frac{ 
-\left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T 
-\left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}
-{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
+- SW 3.3	Confidence intervals for the population mean
+  -  [<i class="fas fa-tv"> </i> Introduction to confidence intervals](https://www.khanacademy.org/math/ap-statistics/estimating-confidence-ap#introduction-confidence-intervals)
+   - [<i class="fas fa-tv"> </i> Confidence intervals for means](https://www.khanacademy.org/math/ap-statistics/estimating-confidence-ap#one-sample-t-interval-mean)
 
-You should absorb/read/review content _before_ coming to class! Note that some content will be available only on our [Blackboard](http://bb.uvm.edu) site. 
+- **Skip SW3.4/3.5/3.6**
+- SW 3.6	Using the t-statistic when the sample size is small
+	- Only the first section, “the t-statistic and the student-t distribution”
 
+- SW 3.7	Scatterplots, the sample covariance, and the sample correlation
+  - [<i class="fas fa-tv"> </i> Correlation coefficients](https://www.khanacademy.org/math/ap-statistics/bivariate-data-ap#correlation-coefficient-r)
 
-|---|---|---|---|
-|Week|Day|Content|Due|
-|Test|Test|test|test|
+## Slides
 
-## Week 1 - August 31 (M)
+`r blogdown::shortcode("slides")`
 
-- [Khan Academy - Significance Testing](https://www.khanacademy.org/math/ap-statistics/tests-significance-ap)
-
-
-## Week 1 - August 31 (M)
-
-- [Khan Academy - Significance Testing](https://www.khanacademy.org/math/ap-statistics/tests-significance-ap)
-
-## Week 1 - August 31 (M)
-
-- [Khan Academy - Significance Testing](https://www.khanacademy.org/math/ap-statistics/tests-significance-ap)
-
-## Week 1 - August 31 (M)
-
-- [Khan Academy - Significance Testing](https://www.khanacademy.org/math/ap-statistics/tests-significance-ap)
-
-## Week 1 - August 31 (M)
-
-- [Khan Academy - Significance Testing](https://www.khanacademy.org/math/ap-statistics/tests-significance-ap)
-
-## Week 1 - August 31 (M)
-
-- [Khan Academy - Significance Testing](https://www.khanacademy.org/math/ap-statistics/tests-significance-ap)
+## Videos
 

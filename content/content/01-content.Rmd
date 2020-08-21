@@ -28,28 +28,56 @@ weight: 1
 ---
 
 
-
+## Overview
 
 Welcome to Week 1! Our goal this week is to (1) help us sort out our varying technologies and workflows and (2) review some statistics! Basically, this is week 1 of a two-week mini-bootcamp to get us ready for the glorious world of regressions!
 
-I'll ask you to self sort: 
+What you should do this week and the next week depends on your background:
 
-- **I took EC170/STAT141 recently and remember some stuff:** Read through SW, and dig deeper into anything that doesn't look familiar. Watch the class videos. Use the Khan Academy to clarify anything you feel a bit fuzzy on. Make sure you can do the practice problems. 
-- **Everyone else** Start by reviewing the Khan Academy concepts. Work through *all* their practice problems. Then head into our EC200 practice problems. 
+### I took EC170/STAT141 recently and remember some stuff
+1. Read through SW, and dig deeper into anything that doesn't look familiar. 
+2. Watch the class videos. 
+3. Use the Khan Academy to clarify anything you feel a bit fuzzy on. 
+4. Make sure you can do the practice problems. 
 
 
-## Topics 
+### Everyone else
+1. Start by reviewing the Khan Academy videos 
+2. Work through *all* the Khan Academy practice problems. 
+3. Watch the class videos 
+4. Head into the practice problems, and review concepts where you are still stuck.
 
-- Probability distributions 
-	- SW Chapter 2.2
-	- Discrete probability distributions 
-	- Continuous probability distributions 
-	
-- Hypothesis testing 
-	- SW Chapter 2.2
-	- <i class="fas fa-tv">  </i>[Khan Academy - Significance Testing](https://www.khanacademy.org/math/ap-statistics/tests-significance-ap)
-	- <i class="fas fa-tv">  </i>[Khan Academy - Significance Testing](https://www.khanacademy.org/math/ap-statistics/tests-significance-ap)
 
+## Reading Guide
+
+**Chapter 2: Review of Probability**
+
+This is the material you should know,  along with supports from [Khan Academy (<i class="fas fa-tv"> </i>)](https://www.khanacademy.org/math/ap-statistics/). Remember that you don't need to memorize formulas! 
+
+
+
+- SW 2.1 Random Variables and Probability Distributions 
+  - [<i class="fas fa-tv"> </i> Discrete random variables](https://www.khanacademy.org/math/ap-statistics/random-variables-ap#discrete-random-variables)
+  - [<i class="fas fa-tv"> </i> Continuous random variables](https://www.khanacademy.org/math/ap-statistics/random-variables-ap#continuous-random-variables)
+   - [<i class="fas fa-tv"> </i> Conditional probability](https://www.khanacademy.org/math/ap-statistics/probability-ap#stats-conditional-probability)
+- SW 2.2 Expected Values, Mean, and Variance 
+  - You only need a general knowledge of kurtosis and skew. 
+  - [<i class="fas fa-tv"> </i> Transforming random variables](https://www.khanacademy.org/math/ap-statistics/random-variables-ap/transforming-random-variables/v/impact-of-scaling-and-shifting-random-variables)
+- SW 2.3 Two Random Variables 
+  - Law of iterated expectations can be skimmed 
+	- Make sure you’re good with key concept box 2.3!
+  - [<i class="fas fa-tv"> </i> Combining random variables](https://www.khanacademy.org/math/ap-statistics/random-variables-ap#combining-random-variables)
+- SW 2.4 The Normal, Chi-Squared, Student t, and F distributions 
+  - Normal and t-distribution only. We won’t use chi-squared, and we’ll come back to F-distributions later.
+  - [<i class="fas fa-tv"> </i> Normal distributions and the empirical rule](https://www.khanacademy.org/math/ap-statistics/density-curves-normal-distribution-ap#stats-normal-distributions)
+  - [ <i class="fas fa-tv"> </i> Normal distribution calculations](https://www.khanacademy.org/math/ap-statistics/density-curves-normal-distribution-ap#normal-distributions-calculations)
+- SW 2.5 Random Sampling and the Distribution of the Sample Average 
+  - [ <i class="fas fa-tv"> </i> What is a sampling distribution?](https://www.khanacademy.org/math/ap-statistics/sampling-distribution-ap#what-is-sampling-distribution)
+  
+- SW 2.6 Large-sample approximations to sampling distributions
+  - *Get that central limit theorem!*
+  - [ <i class="fas fa-tv"> </i> Sampling distribution of a sample   mean](https://www.khanacademy.org/math/ap-statistics/sampling-distribution-ap#sampling-distribution-mean) (relevant for 2.5 as well)
+    
 ## Slides
 
 `r blogdown::shortcode("slides")`

@@ -225,55 +225,10 @@ chapters to tackle the newer material.
     project if you decide not to use Stata, and you will still be
     responsible for any Stata-related questions that come up on quizzes.
 
-# I am in college and having some problems {#i-am-in-college-and-having-some-problems .unnumbered}
+# [I am in college and having some problems]{#i-am-in-college-and-having-some-problems .unnumbered}
 
-Sometimes life goes bananas. Or awful things happen. This is so very,
-very common. You are not alone, and the university has support for you.
+Check out available [resources](/resources/ihaveproblems).
 
-
-**I have a nasty cold** 
-
-
-Get better, get some sleep. Skip class and rest. (Unless it's an exam;
-you should probably come and bring a lot of tissues.) This is why you
-can drop a few assignments. I don't need to know about this, and I won't
-excuse your absences.
-
-**Oh no, it's actually pneumonia (aka I am REALLY SICK or REALLY HURT)** 
-
-
-Please reach out to student services at your college. They will help
-you! A very common thing that happens is that you document your medical
-emergency w/ the Dean's Office, and they contact all your professors for
-you. Then, your professors can make accommodations to help you. You can
-reach out to me before or after you get in touch with the Dean's office,
-and I'm happy to work through hypotheticals (ie, I have a concussion and
-I can't decide whether to take the next quiz).
-
-**I'm experiencing some serious family emergencies**
-
-
-Same as above, reach out to student services through your college. They
-are here to help you.
-
-**My mental health is not so good**
-
-
-Please consider reaching out to CAPS
-(<https://www.uvm.edu/health/CAPS>). They are free! If you need a
-same-day appointment, tell them that, and they will help you right away.
-If you're worried your mental health is going to affect your school
-performance, student services can help your arrange accommodations with
-your professors--this is very common!
-
-**I'm experiencing food/housing insecurity* {#im-experiencing-foodhousing-insecurity .unnumbered}**
-
-
-If you are facing problems securing your food or housing and think this
-may affect your school performance, I strongly encourage you to contact
-student services as well. You can also notify me if you feel
-comfortable, so that I can provide any resources/accommodations if
-needed.
 
 # Student responsibilities and rights {#student-responsibilities-and-rights .unnumbered}
 
@@ -285,23 +240,22 @@ on campus. ACCESS works with students to create reasonable and
 appropriate accommodations via an accommodation letter to their
 professors as early as possible each semester.
 
-Contact ACCESS: A170 Living/Learning Center; 802-656-7753;
-access\@uvm.edu; <http://www.uvm.edu/access>
+Contact [ACCESS](http://www.uvm.edu): A170 Living/Learning Center; 802-656-7753;
+access\@uvm.edu; 
 
-UVM's policy on disability certification and student support: <http://www.uvm.edu/~uvmppg/ppg/student/disability.pdf>
+[UVM's policy on disability certification and student support](http://www.uvm.edu/~uvmppg/ppg/student/disability.pdf)
 
-**Academic integrity:** Do not cheat, and do not plagarize. This policy
+[**Academic integrity:**](http://www.uvm.edu/~uvmppg/ppg/student/acadintegrity.pdf) Do not cheat, and do not plagarize. This policy
 addresses plagiarism, fabrication, collusion, and cheating:
-<http://www.uvm.edu/~uvmppg/ppg/student/acadintegrity.pdf>
 
-**Grade Appeals** If you would like to contest a grade, please follow
-the procedures outlined in this policy:
-<http://www.uvm.edu/~uvmppg/ppg/student/gradeappeals.pdf>
+
+[**Grade Appeals**](http://www.uvm.edu/~uvmppg/ppg/student/gradeappeals.pdf) If you would like to contest a grade, please follow
+the procedures outlined in this policy.
  
-**Code of Student Rights and Responsibilities** <http://www.uvm.edu/~uvmppg/ppg/student/studentcode.pdf>
+[**Code of Student Rights and Responsibilities**](http://www.uvm.edu/~uvmppg/ppg/student/studentcode.pdf)
 
-**FERPA Rights Disclosure** The purpose of this policy is to communicate
+[**FERPA Rights Disclosure**](http://www.uvm.edu/~uvmppg/ppg/student/ferpa.pdf) The purpose of this policy is to communicate
 the rights of students regarding access to, and privacy of their student
 educational records as provided for in the Family Educational Rights and
 Privacy Act (FERPA) of 1974.
-<http://www.uvm.edu/~uvmppg/ppg/student/ferpa.pdf>
+

@@ -1,15 +1,15 @@
 ---
 title: "Lab 2: Do-files"
 linktitle: "Lab 2"
-date: "2020-06-15"
-due_date: "2020-06-15"
-due_time: "11:59 PM"
+date: "2020-08-20"
+due_date: "2020-09-15"
+due_time: "2:20 pm"
+toc: true
 menu:
   assignment:
     parent: Labs
     weight: 2
 type: docs
-
 editor_options: 
   chunk_output_type: console
 ---
@@ -149,6 +149,13 @@ something in a way we haven't covered.
     Stata, turn rows into columns Stata, cluster standard errors Stata,
     etc.*
     
+    
+## Videos 
+
+{{< youtube w7Ft2ymGmfc >}}
+
+{{< video library="true" src="my_video.mp4" controls="yes" >}}
+
 ## Lab Exercise 2 {#lab-2 .unnumbered}
 
 

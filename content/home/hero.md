@@ -23,4 +23,4 @@ cta_note:
   label: EC200 - Fall 2020<br>College of Arts and Sciences<br>University of Vermont
 ---
 
-**Use econometric tools (and Stata!) to ask and answer economic questions with data**
+**Use econometric tools and Stata to ask and answer economic questions**

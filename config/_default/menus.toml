@@ -57,6 +57,11 @@
   weight = 2
 
 
+  [[resources]]
+    name = "Resources"
+    weight = 1
+
+
 #[[menu.syllabus]]
 
 # Link to a PDF of your resume/CV from the menu.

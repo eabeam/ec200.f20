@@ -1,14 +1,15 @@
 ---
 title: "Lab 3: Regression"
 linktitle: "Lab 3"
-date: "2020-06-15"
-due_date: "2020-06-15"
-due_time: "11:59 PM"
+date: "2020-09-24"
+due_date: "2020-10-05"
+due_time: "2:20 PM"
 menu:
   assignment:
     parent: Labs
     weight: 3
 type: docs
+toc: true
 
 editor_options: 
   chunk_output_type: console

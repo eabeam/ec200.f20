@@ -13,14 +13,17 @@ menu:
   
   # Academic page type (do not modify).
 type: docs
+## Slides
+
+#pdf: /slides/ch02-slides.pdf
+# thumb: /slides/ch02-slides.png
 output:
   blogdown::html_page:
     toc: true
 
-## Slides
+pdf: /slides/ch2-slides.pdf
+thumb: /slides/ch2-slides.png
 
-pdf: /slides/ch02-slides.pdf
-thumb: /slides/ch02-slides.png
 
 # Position of this page in the menu. Remove this option to sort alphabetically.
 weight: 1
@@ -84,5 +87,13 @@ This is the material you should know,  along with supports from [Khan Academy (<
 
 ## Videos
 
-https://youtu.be/qXP3pxpT9k4
-https://youtu.be/hn7p0npX-Ng
+- [Probability Review - SW 2.1-2.3](https://youtu.be/SYc3ccB872s)
+
+_Sorry that the audio is bit fuzzy at the beginning - I'm still learning!_
+`r htmltools::HTML("{{< youtube SYc3ccB872s >}}")`
+
+
+- [Conditional Probability Example](https://youtu.be/7CKOMFXqlXE)
+`r htmltools::HTML("{{< youtube 7CKOMFXqlXE >}}")`
+
+

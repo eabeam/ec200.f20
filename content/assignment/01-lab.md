@@ -1,9 +1,10 @@
 ---
 title: "Lab 1: Introduction"
 linktitle: "Lab 1"
-date: "2020-06-15"
-due_date: "2020-06-15"
-due_time: "11:59 PM"
+date: "2020-08-26"
+due_date: "2020-09-09"
+due_time: "2:20 PM"
+toc: true
 menu:
   assignment:
     parent: Labs
@@ -15,7 +16,11 @@ editor_options:
   chunk_output_type: console
 ---
 
-## Objectives {#objectives .unnumbered}
+## Materials {#materials .unnumbered}
+
+ - `driving_2004.dta`
+
+## Objectives[^2] {#objectives .unnumbered}
 
 By the end of this tutorial you should be able to complete the following
 tasks in Stata:
@@ -32,7 +37,7 @@ tasks in Stata:
 
 -   How to get help with Stata
 
-## General command structure:
+## General command structure
 
 `do {something} ... with {variable(s) x}...if {something is true..}, options`
 
@@ -94,7 +99,7 @@ tasks in Stata:
 Start by opening Stata. You should have a window that looks something
 like this (on a PC):
 
-![image](stata1.png)
+{{< figure library="true" src="stata1.png" title="PC window" >}}
 
 You should now have the Stata window open. There is a set of pull down
 menus as well as 4 smaller windows: Review, Variables, Results, and
@@ -102,16 +107,16 @@ Command.
 
 Also especially helpful are the following buttons:
 
-![image](stata2.png)
+{{< figure library="true" src="stata2.png" title="Helpful buttons" >}}
 
 ## Log files
 
-If you want to record anything that you do in a STATA session so that
+If you want to record anything that you do in a Stata session so that
 you can look at results or commands later, you need to open a log-file.
-A log-file is simply a record of all the commands you enter into STATA
+A log-file is simply a record of all the commands you enter into Stata
 and the output from those commands. The key is to make sure you have a
-log file open at the beginning of a STATA session, and to close it once
-you have finished, and before you close STATA.
+log file open at the beginning of a Stata session, and to close it once
+you have finished, and before you close Stata.
 
 There are three ways you can open a log file:
 
@@ -120,7 +125,7 @@ There are three ways you can open a log file:
     a directory where you can store your log file and type in the
     following file name in the File Name space: `lab1.log`
 
-2.  Click on the log icon at the top of the STATA workspace (right of
+2.  Click on the log icon at the top of the Stata workspace (right of
     the print button). When you click on the log button, the "Begin
     Logging Stata Output" dialog box pops up. Name your log file as
     above.
@@ -146,16 +151,16 @@ cover this later.
 
 There are three ways to open a data file:
 
-1.  In the file browser, double click on the data file you want to open
+1.  Outside Stata, double click on the data file you want to open
 
 2.  Use the **FILE/OPEN** drop down menu in Stata and open the data set
-    name `driving.dta` that you copied into your folder. Note that in
+    that you copied into your folder. Note that in
     the command window, the `use` command appears. We'll use that one
     later.
 
-3.  Type `use filename.dta,clear` into the command window
+3.  Type `use filename.dta, clear` into the command window within Stata
 
-Download `driving_2004.dta`, from Blackboard and open it. This is a data
+Download `driving_2004.dta`, from Teams and open it. This is a data
 file of driving laws, vehicle accidents, and fatalities in the United
 States in 2004.
 
@@ -172,7 +177,9 @@ At the top of the output you will see some overall features of the file,
 including the number of variables. Below that you will see a list of
 every variable, including the variable name, the "storage type" (byte,
 float, int, etc.) and the variable label. If you see `–more–` at the
-bottom of your screen, press the space bar to continue scrolling.
+bottom of your screen, press the space bar to continue scrolling.[^1]
+
+
 
 To learn more about the variables and the organization of the data, use
 the `browse` command. Type: `browse` (or click on the "browse" button).
@@ -229,6 +236,16 @@ cell percentages.
 
 ## Lab Exercise 1 {#lab-1 .unnumbered}
 
+_First, work through the above steps. Then, work through the 7 questoins below._ 
+
+
+### What do I submit? 
+
+1. Your written up answers to exercise questions (1) - (7). This can be typed or written out then scanned (or photographed), in any reasonable format 
+2.  A log file that contains the results from the steps prior to the exercise _and_ the exercise itself. 
+
+### Questions
+
 1.  How many states have graduated drivers license laws (GDLs)? How many
     states have speed limits of 70 mph or higher (including no speed
     limit)?
@@ -259,5 +276,7 @@ cell percentages.
     population and weekend accidents per 100,000 population? Why might
     this correlation be so strong?
 
-[^1]: This lab draws heavily on Anne Fitzpatrick's (UMass-Boston)
+
+[^1]: If you are tired of dealing with the "more" issue, you can enable `set more off` into the command window to enable continuous scrolling for your session. If you're just done with it, try `set more off, perm` to enable continuous scrolling for this and all future sessions. 
+[^2]: This lab draws heavily on Anne Fitzpatrick's (UMass-Boston)
     excellent materials.

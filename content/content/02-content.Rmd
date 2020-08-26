@@ -3,7 +3,7 @@
 ---
 title: Week 2 - Statistics Review
 sitetitle: Week 2
-summary: Here we describe how to add a page to your site.
+summary: "EC200: Week 2 Statistics Review (SW Chapter 2)"
 
 date: "2020-09-04"
 start_date: "2020-09-07"

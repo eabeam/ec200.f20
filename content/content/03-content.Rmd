@@ -1,0 +1,34 @@
+---
+title: "Social interactions and economic outcomes"
+linktitle: "3: Social interactions and economic outcomes"
+date: "2020-06-15"
+start_date: "2020-06-15"
+end_date: "2020-06-19"
+menu:
+  content:
+    parent: Course content
+    weight: 3
+type: docs
+
+pdf: /slides/pmap8141_s20_03-slides.pdf
+thumb: /slides/pmap8141_s20_03-slides.png
+output:
+  blogdown::html_page:
+    toc: true
+---
+
+## Readings
+
+***Important***: The PDFs of the individual chapters are posted on iCollege.
+
+
+
+## Other useful resources
+
+Links to other resources like YouTube videos, etc. will go here if needed.
+
+
+## Slides
+
+`r blogdown::shortcode("slides")`
+

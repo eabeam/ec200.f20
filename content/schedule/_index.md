@@ -43,7 +43,7 @@ What's the plan?
 | ||||  | | | |
 | 5|||**SLR: Hypothesis tests (CH5)**   | | | |
 |  | 28 Sept | M | [SLR: Hypothesis tests](/content/04-content) | [<i class="fas fa-tv"></i>](https://bb.uvm.edu)|| | |
-|  | 30 Sept | W | [Lab 3: Regression in Stata](/assignment/03-lab) |  | | | [<i class="fas fa-dragon"></i>](/assignment/02-researchpaper)|
+|  | 30 Sept | W | [Lab 3: Regression in Stata](/assignment/03-lab) |  | | | [<i class="fas fa-dragon"></i>](/assignment/data-abstract)|
 |  | 02 Oct | F |[*CH6 content available*](/content/05-content) || [<i class="fas fa-pencil-alt"></i>](/assignment/03-ps)| | |
 | ||||  | | | |
 | 6|||**Multiple linear regression (CH6)**   | | | |

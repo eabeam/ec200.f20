@@ -160,7 +160,7 @@ section_pager = false
 docs_section_pager = true  # Display pager in Docs layout (e.g. tutorials)?
 
 # Enable in-built social sharing buttons? (true/false)
-sharing = true
+sharing = false
 
 # Show a copyright license from creativecommons.org in the site footer?
 # Page specific copyright licenses are also possible by adding this option to a page's front matter.
@@ -309,28 +309,28 @@ plugins_js  = []
   ## Additionally, for organizations, these details may be used to enrich search engine results.
   ############################
 
-  author = "Emily Beam"
+  author = " Emily Beam"
 
   [instructor]
-    name = "Dr. Emily Beam"
+    name = " Dr. Emily Beam"
 
     email = "emily.beam@uvm.edu"
     url= "https://www.uvm.edu/~ebeam"
     twitter = "emily_beam"
     github = "eabeam"
-    office= "233 Old Mill"
-    contact_policy="E-mail and Teams are the best ways to get in contact with me."
+    office= "Online only"
+    contact_policy="E-mail and [Microsoft Teams](https://teams.microsoft.com/l/chat/0/0?users=<ebeam@uvm.edu>) are the best ways to get in contact with me."
     appointment_url="https://calendly.com/emily-a-beam/"
 
   [course]
-    number = "EC200"
+    number = " EC200"
     semester= "Fall 2020"
-    days= "Mondays and Wednesdays (Friday asynchronous)"
-    time= "2:20-3:10pm"
+    days= " Mondays and Wednesdays (Friday asynchronous)"
+    time= " 2:20-3:10pm"
     # location: "Online only (thanks, COVID-19, for ruining everything)"
-    dates= "August 31–December 07, 2020"
+    dates= " August 31–December 07, 2020"
     #github: "andrewheiss/econf20.classes.andrewheiss.com"
-    copyrightYear= "2020"
+    copyrightYear= " 2020"
     #slack: "https://gsueconf2020.slack.com"
 
   [university]

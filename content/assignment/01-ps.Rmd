@@ -1,8 +1,9 @@
 ---
 title: "Problem set 1"
-linktitle: "PS1"
-date: "2020-08-20"
-
+linktitle: "PS 1"
+date: "2020-08-26"
+due_date: "2020-09-11"
+due_time: "2:20 pm"
 menu:
   assignment:
     parent: Problem Sets

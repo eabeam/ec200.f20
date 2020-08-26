@@ -14,29 +14,19 @@ output:
 menu: syllabus
 ---
 
+`r blogdown::shortcode("courseinfo")`
 
-**EC200 Econometrics and Applications**\
-**3 credits** \
-
-|        |   
-| :------------- | :----------: | 
- | **Instructor:** Dr. Emily Beam                                            |     **Office:** REMOTE|
- | **E-mail:** emily.beam\@uvm.edu                                           |     **Class:** MWF 2:30-3:10|
- | **Office Hours:**  by appointment at <https://emilybeam.youcanbook.me>   |
-
-```{r echo=FALSE}
-blogdown::shortcode('tweet', '1293543531496308736')
-```
-
-![image](/correlation.png)
+![](/correlation.png)
 
 *Fall 2020 will be a strange semester. My operating principle is that we
 are all trying our best. I will work to accommodate personal
 emergencies, unpredictable schedules, general chaos as best I can.*
 
-# Course Description {#course-description .unnumbered}
+# Course description {#course-description .unnumbered}
 
-This course will provide a theoretical and practical background in basic
+**Credits: 3**
+
+Thiscourse will provide a theoretical and practical background in basic
 econometric techniques. We will review probability and statistics before
 covering classical linear regression with two or more variables,
 estimation and hypothesis testing, and violations of classical
@@ -53,7 +43,7 @@ course time to cover all the Stata preparation you'll need, but I'll
 cover the basics and you'll have to rely on other resources to figure
 out the rest.
 
-# Learning Objectives:  {#learning-objectives .unnumbered}
+# Learning objectives:  {#learning-objectives .unnumbered}
 
 
 -   To understand and apply foundational tools in econometric theory
@@ -64,7 +54,7 @@ out the rest.
 -   To formulate, assess, and answer economic questions by selecting and
     applying appropriate econometric techniques
 
-# Required Materials  {#required-materials .unnumbered}
+# Required materials  {#required-materials .unnumbered}
 
 
 -   **Textbook:** Stock, James H. and Mark W. Watson. *Introduction to
@@ -225,7 +215,7 @@ chapters to tackle the newer material.
     project if you decide not to use Stata, and you will still be
     responsible for any Stata-related questions that come up on quizzes.
 
-# [I am in college and having some problems]{#i-am-in-college-and-having-some-problems .unnumbered}
+# [I am in college and having some problems]{#i-am-having-some-problems .unnumbered}
 
 Check out available [resources](/resources/ihaveproblems).
 

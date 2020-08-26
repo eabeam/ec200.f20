@@ -5,7 +5,7 @@ title: Week 2 - Statistics Review
 sitetitle: Week 2
 summary: Here we describe how to add a page to your site.
 
-date: "2020-08-20"
+date: "2020-09-04"
 start_date: "2020-09-07"
 end_date: "2020-09-11"
 

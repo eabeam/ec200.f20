@@ -51,9 +51,6 @@
   weight = 4
 
 
-[[content]]
-  name = "Overview"
-  weight = 1
 
   [[content]]
   name = "Course content"

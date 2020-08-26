@@ -293,9 +293,50 @@ plugins_js  = []
 [cms]
   # See https://sourcethemes.com/academic/docs/install/#install-with-web-browser
   netlify_cms = true
-
 ############################
 ## Icon Pack Extensions
 ############################
 [icon.pack]
   ai = true  # Academicons icon pack https://jpswalsh.github.io/academicons/
+
+
+
+
+  ############################
+  ## Contact details
+  ##
+  ## These details power the Contact widget (if enabled).
+  ## Additionally, for organizations, these details may be used to enrich search engine results.
+  ############################
+
+  author = "Emily Beam"
+
+  [instructor]
+    name = "Dr. Emily Beam"
+
+    email = "emily.beam@uvm.edu"
+    url= "https://www.uvm.edu/~ebeam"
+    twitter = "emily_beam"
+    github = "eabeam"
+    office= "233 Old Mill"
+    contact_policy="E-mail and Teams are the best ways to get in contact with me."
+    appointment_url="https://calendly.com/emily-a-beam/"
+
+  [course]
+    number = "EC200"
+    semester= "Fall 2020"
+    days= "Mondays and Wednesdays (Friday asynchronous)"
+    time= "2:20-3:10pm"
+    # location: "Online only (thanks, COVID-19, for ruining everything)"
+    dates= "August 31–December 07, 2020"
+    #github: "andrewheiss/econf20.classes.andrewheiss.com"
+    copyrightYear= "2020"
+    #slack: "https://gsueconf2020.slack.com"
+
+  [university]
+    name="University of Vermont"
+    url= "https://www.uvm.edu"
+
+  [school]
+    name= "College of Arts and Sciences"
+    url= "https://cas.uvm.edu/"

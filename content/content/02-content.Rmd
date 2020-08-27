@@ -3,28 +3,27 @@
 ---
 title: Week 2 - Statistics Review
 sitetitle: Week 2
-summary: "EC200: Week 2 Statistics Review (SW Chapter 2)"
+summary: "EC200 - Week 2 Statistics Review (SW Chapter 2)"
 
 date: "2020-09-04"
 start_date: "2020-09-07"
 end_date: "2020-09-11"
 
-
+  
+  # Academic page type (do not modify).
+type: docs
 menu:
   content:
     parent: Course content
     weight: 2
-  
-  # Academic page type (do not modify).
-type: docs
+    
 output:
   blogdown::html_page:
     toc: true
 
-# Slides
+pdf: /slides/ch3-slides.pdf
+thumb: /slides/ch3-slides.png
 
-pdf: /slides/ch03-slides.pdf
-thumb: /slides/ch03-slides.png
 
 
 ---

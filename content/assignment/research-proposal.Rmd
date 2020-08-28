@@ -1,13 +1,13 @@
 ---
 title: "Research Paper: Research Proposal"
-linktitle: "03 Research Proposal"
+linktitle: "04 Research Proposal"
 date: "2020-08-26"
 due_date: "2020-11-11"
 due_time: "11:59 PM"
 menu:
   assignment:
     parent: Research Paper
-    weight: 4
+    weight: 6
 type: docs
 editor_options: 
   chunk_output_type: console

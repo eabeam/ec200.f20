@@ -1,27 +1,30 @@
 ---
-title: "Research Paper: Checklist"
-linktitle: "05 Checklist"
+title: "Research Paper: Final Submission"
+linktitle: "07 Final"
 date: "2020-06-22"
-due_date: "2020-06-22"
+due_date: "2020-12-08"
 due_time: "11:59 PM"
 menu:
   assignment:
     parent: Research Paper
-    weight: 5
+    weight: 30
 type: docs
-weight: 3
+
 editor_options: 
   chunk_output_type: console
+output:
+  blogdown::html_page:
+    toc: true
 ---
 
-**[Research Paper Checklist]{.ul}**
+## Research Paper Checklist
 
 *I've put together this set of guidelines to help you make sure your
 research paper includes all the important elements. While a good paper
 will meet these criteria, please note that, this is not a grading
 rubric! See Blackboard for the rubric.*
 
-**General/Style**
+### General/Style
 
 -   First-person active voice! (I estimate a regression, **NOT** "A
     regression is estimated")
@@ -49,7 +52,7 @@ rubric! See Blackboard for the rubric.*
 
     -   Clear, labeled sections
 
-**Abstract & Title**
+## Abstract & Title
 
 -   Descriptive title
 
@@ -75,7 +78,7 @@ rubric! See Blackboard for the rubric.*
 
 -   Describe how it contributes to knowledge
 
-**Motivation or Background or Literature Review**
+### Motivation or Background or Literature Review**
 
 -   What you include here depends on topic. Sometimes the reader needs
     to know how your question links to economic theory. Sometimes it's
@@ -102,7 +105,7 @@ rubric! See Blackboard for the rubric.*
     and finding, paper B and finding, etc, you link each one (or group)
     to their contribution (as relates to your research question)
 
-**Methodology/Data**
+### Methodology/Data**
 
 -   Describe the data you use, where did it come from? If you didn't
     create it, cite it
@@ -130,7 +133,7 @@ rubric! See Blackboard for the rubric.*
 
 -   Correct standard errors: robust? Clustered? Something else?
 
-**Results**
+### Results**
 
 -   When using categorical/dummy variables, what is your omitted
     category? Make sure you know and that it's clear.
@@ -142,7 +145,7 @@ rubric! See Blackboard for the rubric.*
 -   Discuss using a reasonable number of decimal places (usually only 1
     or 2)
 
-**Limitations or Discussion**
+### Limitations or Discussion**
 
 -   Include as a separate section or integrate into results
 
@@ -159,7 +162,7 @@ rubric! See Blackboard for the rubric.*
 
 -   What other considerations are important?
 
-**Conclusion**
+### Conclusion**
 
 -   Brief summary of paper
 
@@ -169,7 +172,7 @@ rubric! See Blackboard for the rubric.*
 
 -   Implications for future research
 
-**Tables and Figures**
+### Tables and Figures**
 
 -   Tables should be properly formatted. That is, they should be made in
     Excel (or LaTeX) and NEVER copied and pasted out of Stata
@@ -189,7 +192,7 @@ rubric! See Blackboard for the rubric.*
     set and stick to a reasonable number of significant digits. There's
     no place for a number like 0.05403823 or 0.0000000 in your tables.
 
-**References**
+### References**
 
 -   Use footnotes rather than endnotes
 
@@ -202,12 +205,12 @@ rubric! See Blackboard for the rubric.*
 -   In-text, cite with author and year (Author, Year; Author, Year) or
     (Author Year, Author Year)
 
-**Working with data**
+### Working with data**
 
 -   What is the unit of observation? Is it people, households, states,
     etc? Make sure the unit is appropriate to your question
 
-*If you're working with individual-level data...*
+#### If you're working with individual-level data...*
 
 -   What is the age range you want in your sample?
 

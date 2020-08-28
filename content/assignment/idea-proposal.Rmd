@@ -1,0 +1,16 @@
+---
+title: "Research Paper: Idea Proposal"
+linktitle: "02 Research Ideas"
+date: "2020-08-26"
+due_date: "2020-11-11"
+due_time: "11:59 PM"
+menu:
+  assignment:
+    parent: Research Paper
+    weight: 4
+type: docs
+editor_options: 
+  chunk_output_type: console
+---
+
+TBD

@@ -1,11 +1,11 @@
 ---
-title: Week 1 - Probability Review
-sitetitle: Week 1
-summary: "EC200 - Week 1 Probability Review (SW Chapter 2)"
+title: Week 2 - Probability Review
+sitetitle: Week 2
+summary: "EC200 - Week 2 Probability Review (SW Chapter 2)"
 
 date: "2020-08-19"
-start_date: "2020-08-31"
-end_date: "2020-09-04"
+start_date: "2020-09-07"
+end_date: "2020-09-11"
 menu:
   content:
     parent: Course content

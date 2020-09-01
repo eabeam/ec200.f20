@@ -1,7 +1,7 @@
 ---
 title: "Lab 1: Introduction"
 linktitle: "Lab 1"
-date: "2020-08-26"
+date: "2020-08-31"
 due_date: "2020-09-09"
 due_time: "2:20 PM"
 toc: true

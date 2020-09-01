@@ -1,13 +1,13 @@
 
 
 ---
-title: Week 2 - Statistics Review
+title: Week 3 - Statistics Review
 sitetitle: Week 2
-summary: "EC200 - Week 2 Statistics Review (SW Chapter 2)"
+summary: "EC200 - Week 3 Statistics Review (SW Chapter 2)"
 
-date: "2020-09-04"
-start_date: "2020-09-07"
-end_date: "2020-09-11"
+date: "2020-09-01"
+start_date: "2020-09-14"
+end_date: "2020-09-18"
 
   
   # Academic page type (do not modify).

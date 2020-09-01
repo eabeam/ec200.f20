@@ -22,7 +22,7 @@ What's the plan?
 |Week|Date| Day|Topic|Video Quiz| Problem Set|Lab|Paper|
 | :------------- | ----------: | :------------- | :------------- | :----------: | :-------------:|:-------------: | :-------------: | :----------: |
 |1 |||**Introductions**   | | | ||
-|  | 31 Aug | M | [Introductions](/content/syllabus/)  || | |
+|  | 31 Aug | M | [Introductions](/syllabus/)  || | |
 |  | 02 Sep | W | [Lab 1: Getting to know Stata](/assignment/01-lab) |  | | | |
 |  | 04 Sep | F | [*CH2 content available*](/content/01-content) |  | | | |
 | ||| | | | |

@@ -1,7 +1,7 @@
 ---
 title: "Problem set 1"
 linktitle: "PS 1"
-date: "2020-08-26"
+date: "2020-08-29"
 due_date: "2020-09-11"
 due_time: "2:20 pm"
 menu:

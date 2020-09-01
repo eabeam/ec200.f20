@@ -99,15 +99,18 @@ tasks in Stata:
 Start by opening Stata. You should have a window that looks something
 like this (on a PC):
 
-{{< figure library="true" src="stata1.png" title="PC window" >}}
+![pc window](../../static/media/stata1.png)
+
+
 
 You should now have the Stata window open. There is a set of pull down
 menus as well as 4 smaller windows: Review, Variables, Results, and
 Command.
 
-Also especially helpful are the following buttons:
+![Four commands](../../static/media/stata2.png)
 
-{{< figure library="true" src="stata2.png" title="Helpful buttons" >}}
+
+Also especially helpful are the following buttons:
 
 ## Log files
 

@@ -17,7 +17,8 @@ menu: syllabus
 
 `r blogdown::shortcode("courseinfo")`
 
-![](/correlation.png)
+![Correlation and causation](correlation.png)
+
 
 *Fall 2020 will be a strange semester. My operating principle is that we
 are all trying our best. I will work to accommodate personal

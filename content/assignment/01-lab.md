@@ -97,7 +97,7 @@ tasks in Stata:
 Start by opening Stata. You should have a window that looks something
 like this (on a PC):
 
-![](stata1.png)
+
 
 `{{< figure library="true" src="stata1.png" title="" >}}`
 
@@ -105,7 +105,7 @@ You should now have the Stata window open. There is a set of pull down
 menus as well as 4 smaller windows: Review, Variables, Results, and
 Command.
 
-![](stata2.png)
+`{{< figure library="true" src="stata2.png" title="" >}}`
 
 
 Also especially helpful are the following buttons:

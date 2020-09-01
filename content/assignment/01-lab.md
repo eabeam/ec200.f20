@@ -1,17 +1,15 @@
 ---
-title: "Lab 1: Introduction"
+title: "Lab 1: Do-files"
 linktitle: "Lab 1"
-date: "2020-08-31"
+date: "2020-09-01"
 due_date: "2020-09-09"
-due_time: "2:20 PM"
+due_time: "2:20 pm"
 toc: true
 menu:
   assignment:
     parent: Labs
     weight: 1
 type: docs
-draft: true
-weight: 1
 editor_options: 
   chunk_output_type: console
 ---
@@ -101,7 +99,7 @@ like this (on a PC):
 
 ![](stata1.png)
 
-
+`{{< figure library="true" src="stata1.png" title="" >}}`
 
 You should now have the Stata window open. There is a set of pull down
 menus as well as 4 smaller windows: Review, Variables, Results, and
@@ -239,7 +237,7 @@ cell percentages.
 
 ## Lab Exercise 1 {#lab-1 .unnumbered}
 
-_First, work through the above steps. Then, work through the 7 questoins below._ 
+_First, work through the above steps. Then, work through the 7 questions below._ 
 
 
 ### What do I submit? 

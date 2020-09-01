@@ -6,9 +6,12 @@ menu:
     weight: 1
 type: docs
 weight: 1
+date: "2020-09-01"
+
 output:
   blogdown::html_page:
     toc: true
+    
 ---
 
 # Video quizzes {#video-quizzes .unnumbered}

@@ -35,6 +35,8 @@ tasks in Stata:
 
 -   How to get help with Stata
 
+If you need more help, check out [Stata Resources](/resources/stata-resources).
+
 ## General command structure
 
 `do {something} ... with {variable(s) x}...if {something is true..}, options`
@@ -206,7 +208,7 @@ Note the following:
 -   Each variable appears in a separate column, and the name of the
     variable is at the column heading.
 
-How many observations are there? What type of data set is this?
+> How many observations are there? What type of data set is this?
 
 ## Examining variables
 

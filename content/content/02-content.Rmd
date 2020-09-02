@@ -79,3 +79,8 @@ This is the material you should know,  along with supports from [Khan Academy (<
 
 ## Videos
 
+- [Statistics Review](https://youtu.be/SYc3ccB872s)
+Estimators/estimates, confidence intervals, and hypothesis testing
+`r htmltools::HTML("{{< youtube dMFQw0DcOgU >}}")`
+
+

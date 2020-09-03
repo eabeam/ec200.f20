@@ -27,7 +27,7 @@
 
 [[main]]
   name = "Resources"
-  url = "/resources/"
+  url = "/bonus/"
   weight = 60
 
 

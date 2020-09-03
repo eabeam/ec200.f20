@@ -219,7 +219,7 @@ chapters to tackle the newer material.
 
 # [I am in college and having some problems]{#i-am-having-some-problems .unnumbered}
 
-Check out available [resources](/resources/ihaveproblems).
+Check out available [resources](/bonus/ihaveproblems).
 
 
 # Student responsibilities and rights {#student-responsibilities-and-rights .unnumbered}

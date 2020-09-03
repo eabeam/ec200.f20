@@ -109,7 +109,7 @@ final week of class. I will provide specifics later.
 ## Paper components  {#paper-components .unnumbered}
 
 A number of excellent guides can help you put together an effective and
-interesting research paper. I've provided a set of [paper resources](/resources/paper-resources).
+interesting research paper. I've provided a set of [paper resources](/bonus/paper-resources).
 
 In general, it should include the following components: abstract (fewer
 than 250 words), introduction, background, methodology, results,
@@ -200,5 +200,5 @@ you have a clear idea of how you'll be graded.
 
 ## Recommendations {#recommendations .unnumbered}
 
-See [paper resources](/resources/paper-resources) for dataset and topic suggestions.
+See [paper resources](/bonus/paper-resources) for dataset and topic suggestions.
 

@@ -35,7 +35,7 @@ tasks in Stata:
 
 -   How to get help with Stata
 
-If you need more help, check out [Stata Resources](/resources/stata-resources).
+If you need more help, check out [Stata Resources](/bonus/stata-resources).
 
 ## General command structure
 

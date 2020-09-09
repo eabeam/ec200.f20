@@ -54,6 +54,9 @@ tasks in Stata:
 |Displaying your data||
 |`graph twoway histogram var1` | make a histogram for `var1.` Check help files for more options
 
+Looking for more examples? Check out these [**Stata Cheat Sheets**](https://geocenter.github.io/StataTraining/portfolio/01_resource/)
+
+
 
 Suppose I asked you to recreate your analysis from our last lab. How
 long would it take you? If you used a do-file, you would just have to

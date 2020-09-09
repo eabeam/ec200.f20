@@ -18,6 +18,10 @@ output:
 
 ## Stata Resources
 
+Looking for more examples? Check out these [**Stata Cheat Sheets**](https://geocenter.github.io/StataTraining/portfolio/01_resource/)
+
+
+
 Our Stata labs will get you started with Stata, but at some point you'll want to do something we didn't explicitly cover. You might also want to get a second pass on key concepts. Fortunately, there are **lots** of resources on the internet to help you with Stata! Here are some of the best. 
 
 - [Stata Corp Video Tutorials](https://www.stata.com/links/video-tutorials/) - Videos! There are a _lot_ of videos, but don't be deterred.

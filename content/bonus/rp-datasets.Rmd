@@ -55,4 +55,6 @@ output:
 - [Development economics datasets](https://dash.harvard.edu/bitstream/handle/1/13576366/development_datasets.pdf?sequence=1&isAllowed=y) - from Plamen Nikolov
 - Erik Gahner's [PolData](https://github.com/erikgahner/PolData) - A LOT of datasets related to politics
 - [DevEconData](http://devecondata.blogspot.com/)
+- Sebastian Tello-Trillo's [guide to finding datasets](https://dsebastiantello.files.wordpress.com/2019/08/where-to-find-data-a-primer.pdf)
+
 

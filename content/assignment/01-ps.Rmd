@@ -32,7 +32,7 @@ editor_options:
 
     c.  What is the variance of X?
 
-2.  Stock and Watson 2.6, 2.10, 2.18, 3.16
+2.  Stock and Watson 2.6, 2.10, (note that I originally assigned 2.18, 3.16, but the content is covered in Week 3 - you can submit these now _or_ with PS2) 
 
 3.  For a randomly selected county in the United States, let $X$
     represent the proportion of adults over age 65 who are employed (the

@@ -1,0 +1,112 @@
+
+---
+title: "Problem set 2"
+linktitle: "PS 2"
+date: "2020-09-12"
+due_date: "2020-09-18"
+due_time: "02:20 PM"
+menu:
+  assignment:
+    parent: Problem Sets
+    weight: 2
+type: docs
+
+weight: 2
+editor_options: 
+  chunk_output_type: console
+---
+
+## Welcome 
+
+Welcome to Problem Set 2! There are two "problem" exercises and one extended Stata exercise. Please note that you'll need to submit a problem set, log file, and do-file on Blackboard. Note that there are superscripted numbers^[See?! Neat! :) `r icon::fa_rocket(animate = "spin")` `r icon::fa_rocket(animate = "spin")` `r icon::fa_rocket(animate = "spin")` ] throughout the page that provide additional information/suggestions to help you out. 
+
+
+## Exercises
+
+
+1. (2.18) In any year, the weather can inflict storm damage to a home. From year to year, the damage is random. Let $Y$ denote the dollar value of damange in any given year. Suppose that in 95% of the years, there is no damage ($Y=0$), but in 5% of the years, $Y = 20000$.
+
+    a. What are the mean and standard deviation of the damage in any year? 
+  
+    b. Consider an "insurance pool" of 100 people whose homes are sufficiently dispersed so that, in any year, the damange to different homes can be viewed as inddependently distributed random variables. Let $\bar{Y}$ denote the average damage to these 100 homes in a year (i) What is $E[\bar{Y}]$? (i) What is the probability that $\bar{Y}$ exceeds $2000? 
+  
+  
+2. (3.16) Grades on a standardized test are known to have a mean of 1000 for students in the United States. The test is administered to 453 randomly selected students in Florida; in this sample, the mean is 1013 and the standard deviation ($s$) is 108. 
+    
+    a. Construct a 95% confidence interval for the average test score for Florida students 
+    
+    b. Is there statistically significant evidence that Florida students perform differently than other students in the United States? How do you know? 
+    
+    c. Another 503 students are selected at random from Florida. They are given a 3-hour preparation course before the test is administered Their average test scores is 1019 with a standard deviation of 95. 
+    
+    (i) First, construct a 95% confidence interval for the **change** in the average test score associated with the prep course.  
+    
+    (ii) Is there statistically significant evidence that the prep course helped? 
+      
+
+**For the following question, make sure you submit your do-file and log-file alongside your answers!**
+
+3.  Download [`countymurders.dta`](../countymurders.dta) to answer this question. The variable
+    $murders$ is the number of murders reported in the county. The
+    variable $execs$ is the number of executions that took place of
+    people sentenced to death in the given country. Most states in the
+    United States have the death penalty, but several do not.
+
+    1.  Keep only data from the year 1996. How many counties are
+        there in the data set? Of these, how many have zero murders.
+        What percentage of countries have zero executions?
+
+    2.  What is the largest number of murders in a county? What is the
+        largest number of executions in a county? 
+
+    3.  Compute the correlation coefficient $r$ between `murders` and
+        `execs` and describe what you find. ^[Remember, you can use `correlate var1 var2` to look at the correlation between two variables.] Estimate the correlation coefficient between `murdrate` and `execrate`.
+        Why do the two coefficients differ so much?
+
+    4.  What are two characteristics in the data that are highly
+        correlated with county murder rates?^[If you want to look at the correlation between lots of variables, you can use `correlate var1 var2 ... var99`. If you want to refer to a lot of variables, an asterisk (*) can act as a "wild." So if you use `correlate var*`, it you'll receive a correlation matrix of every variable with a name that starts with "var." If you use `correlate *var*`, it will give you a correlation matrix of every variable with the letters "var" somewhere in the name.] What are their correlation
+        coefficients?
+
+    5.  What is median real per-capita income?^[`tabstat` is your friend!]
+
+    6.  Generate a variable, `highinc` that is equal to 1 if a county
+        has above-median real per capita income, and 0 otherwise. What
+        is $E[rpcpersinc  | highinc =0]$? What is     $E[rpcpersinc | highinc =1]$?
+
+    7.  Consider a two-sided hypothesis test of whether murder
+        rates are different between counties with high (above median) vs
+        low (below median) real per-capita personal income. Assume the
+        two samples are independent, with equal variances. 
+          a. First, write a null and alternative hypothesis 
+          b. Use Stata to conduct the hypothesis test. What is the relevant t-statistic?^[The help file for `ttest` will be useful. Here we are conducting a two-sample t-test using groups. You will want to use the `highinc` variable you generated earlier.]
+          c. Can you reject the null hypothesis at the 5% level?
+
+    8.  Generate a variable, `perc1029`, that is equal to the share of
+        the population between the ages of 10 and 29. What is the median
+        share of the population by county that is ages **10-29**?
+
+    9.  Generate a variable, `young`, that is equal to 1 if a county has
+        an above-median share of the population that is age 10-29, and 0
+        otherwise. What is $E[perc1029| young = 0]$? What is
+        $E[perc1029| young =1]$?
+
+    10. Consider a two-sided hypothesis test of whether murder rates are
+        different between states with a high (above-median) share of the
+        population ages **10-29** versus a low share. Assume the two
+        samples are independent, with equal variances.
+          a. First, write a null and alternative hypothesis 
+          b. Use Stata to conduct the hypothesis test. What is the relevant t-statistic?
+          c. Can you reject the null hypothesis at the 5% level?
+
+
+
+## Sources {#sources .unnumbered}
+
+[`countymurders.dta`](../countymurders.dta)
+
+*Source: Compiled by J. Monroe Gamble for a Summer Research Opportunities
+Program (SROP) at Michigan State University, Summer 2014. Monroe
+obtained data from the U.S. Census Bureau, the FBI Uniform Crime
+Reports, and the Death Penalty Information Center.*
+
+

@@ -31,6 +31,10 @@ with others, but you need to submit your labs individually
 Labs also will be graded on completion. I will check to make
 sure you reasonably attempted the problems, and you'll score zero, one, or two points. For full credit, you *must* include a log-file and do-file. 
 
+# Solutions {#solutions .unnumbered}
+
+Solutions to the problem sets and labs are posted within a few days after the due date. 
+
 # Research paper {#researchpaper .unnumbered}
 
 It's going to be great! In this class, you'll write a research paper on a topic of your choosing. There are lots of graded steps along the way. You can work individually or in pairs. Get all the details in our [first assignment sheet](/assignment/01-researchpaper).

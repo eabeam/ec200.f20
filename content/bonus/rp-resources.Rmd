@@ -24,6 +24,8 @@ output:
 
 ## Suggested topics 
 
+
+
 ### Adapted from Wooldridge
 The following suggested topics are taken from Wooldridge. These can be
 used as a starting point for your own idea generation. You can use these

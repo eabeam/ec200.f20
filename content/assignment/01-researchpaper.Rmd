@@ -200,5 +200,5 @@ you have a clear idea of how you'll be graded.
 
 ## Recommendations {#recommendations .unnumbered}
 
-See [paper resources](/bonus/paper-resources) for dataset and topic suggestions.
+See [paper resources](/bonus/rp-resources) for dataset and topic suggestions.
 

@@ -29,19 +29,46 @@ thumb: /slides/ch3-slides.png
 
 ## What should I know? 
 
-Make sure you are comfortable with the material chapter guides from [Week 2](../01-content) and [Week 3](../02-content). What does comfortable mean? That you're familiar with definitions and terminology, and that you can work through problems at the level of PS2 and PS3. 
+Make sure you are comfortable with the material chapter guides from [Week 2](../01-content) and [Week 3](../02-content). What does comfortable mean? That you're familiar with definitions and terminology, and that you can work through problems at the level of PS1 and PS2^[If you haven't noticed already, PS1 solutions are available on Blackboard already. PS2 solutions will be available by the end of day Friday on Blackboard].
 
 There will not be a Stata component to the exam. 
 
+## I need more practice!
+
+I recommend the following resources: 
+
+ - Odd-numbered problems from Stock and Watson - solutions are available [here](../../bonus/general-resources)
+ - [Practice exam](#practice-exam)
+
 ## What is the structure of the exam? 
 
-The exam will "go live" during our scheduled class time at 2:20pm on Monday, September 18. It will be open until Midnight. Once you start the exam, you will have 75 minutes to complete the exam (standard class duration + time for bathroom/craziness/deep breaths) 
+The exam will "go live" during our scheduled class time at **2:20pm on Monday, September 21**.  We will not meet :cry:.  It will be "due" at **3:20pm the same day.** I've added an extra 10 minutes for scanning/deep breaths, but I didn't add more to avoid conflicts with those who have class at 3:30pm. 
 
-You will be asked to work through about 3-4 multi-part worth 30 points total. There are multiple versions of the exam. 
+**If you have a scheduling issue, please let me know ASAP.**
+
+You will be asked to work through about 3-4 multi-part questions worth 30 points total. There are multiple versions of the exam. 
 
 ### How do I submit? 
-Work through on paper, then scan a copy and upload it onto Blackboard. Please use something like [Adobe Scan](https://acrobat.adobe.com/us/en/mobile/scanner-app.html) so I don't have a million .jpg files! 
+Work through on paper, then scan a copy and upload it onto Blackboard. Please use something like [Adobe Scan](https://acrobat.adobe.com/us/en/mobile/scanner-app.html) so that you can submit **just one file in pdf form**. In the past, I've found that uploading photos yields huge files that are difficult to grade.
 
+#### Details: 
+
+What should you make sure you include? 
+
+ - Just one file per person 
+ - PDF version - review in advance to make sure the text is readable
+ - Make sure your answers are numbered, but you don't need to write out the questions
+ - Please make sure pages are in order
+ - **YOU MUST SHOW YOUR WORK** for full credit. 
+
+
+### Practice exam! (For logisitics)
+
+Just to make sure we're feeling good about logistics, I'll post a "practice exam" on Blackboard that will go live at **3:10pm on Friday, September 18** (after our optional meet up) with one question. You can download it, work through the problem, scan it and upload your exam.  Once you start the exam, you will have 75 minutes to complete it. It will be available until **11:59 pm Sunday.**
+
+I'll review your submission and make sure there aren't any problems with viewing your work.  
+
+Completion of the practice exam will be worth 2 points toward the exam (regardless of your answer)
 
 <!---
 Following department policy, you will be required to use the Respondus lock-down browser with no back-tracking. 
@@ -69,7 +96,8 @@ On Friday, I'll release an optional "practice" lock-down exam. It will have one 
 
 
 
-## Practice exam: 
+## Past exam  {#practice-exam .unnumbered}
+
 
 [Fall 2018 Practice Exam](../PracticeExams/StatsQuiz_Spring2018_print.pdf)
 

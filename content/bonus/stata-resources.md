@@ -42,6 +42,12 @@ Our Stata labs will get you started with Stata, but at some point you'll want to
 - [SSCC Data Wrangling with Stata](https://ssc.wisc.edu/sscc/pubs/dws/data_wrangling_stata1.htm) - Video + text walkthrough, part II! 
 `{{< figure library="true" src="sscc-stata-data.png" title=""  >}}`
 
+- [Stock and Watson Stata 14 Tutorial](https://www.princeton.edu/~mwatson/Stock-Watson_4E/Stock-Watson-Resources-4e.html) (At bottom of page)
+
+
+## General Resources
+
+- [Library of Statistical Techniques (LOST)](https://lost-stats.github.io/)	 - Start with what you want to do and you'll find walkthroughs in Stata and R! 
 
 
 _If you come across something else, let me know and I'll pass along the recommendation!_

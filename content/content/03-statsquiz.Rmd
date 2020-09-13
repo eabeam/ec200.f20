@@ -1,0 +1,76 @@
+
+
+---
+title: Stats Quiz
+sitetitle: Stats Quiz
+summary: "EC200 - Stats Quiz Prep (EC200) "
+
+date: "2020-09-16"
+
+
+  
+  # Academic page type (do not modify).
+type: docs
+menu:
+  content:
+    parent: Exam prep
+    weight: 2
+    
+output:
+  blogdown::html_page:
+    toc: true
+
+pdf: /slides/ch3-slides.pdf
+thumb: /slides/ch3-slides.png
+
+
+
+---
+
+## What should I know? 
+
+Make sure you are comfortable with the material chapter guides from [Week 2](../01-content) and [Week 3](../02-content). What does comfortable mean? That you're familiar with definitions and terminology, and that you can work through problems at the level of PS2 and PS3. 
+
+There will not be a Stata component to the exam. 
+
+## What is the structure of the exam? 
+
+The exam will "go live" during our scheduled class time at 2:20pm on Monday, September 18. It will be open until Midnight. Once you start the exam, you will have 75 minutes to complete the exam (standard class duration + time for bathroom/craziness/deep breaths) 
+
+You will be asked to work through about 3-4 multi-part worth 30 points total. There are multiple versions of the exam. 
+
+### How do I submit? 
+Work through on paper, then scan a copy and upload it onto Blackboard. Please use something like [Adobe Scan](https://acrobat.adobe.com/us/en/mobile/scanner-app.html) so I don't have a million .jpg files! 
+
+
+<!---
+Following department policy, you will be required to use the Respondus lock-down browser with no back-tracking. 
+
+I will ask you to 
+## Responu--what? 
+
+ all exams for the course require you to use the Respondus lock-down browser. This means you must use a Mac/PC for the exam, not a Chromebook or iPad. If this creates any problems for you, reach out to me and we can discuss options. 
+
+From UVM: 
+  > The LockDown Browser is like a normal browser, except that once you click “Begin” on your test, it prevents you from opening Word documents, instant messages, or email, and it blocks you from visiting other websites or accessing other parts of the course.
+> 
+> Important: You must download the browser from the URL below. Even if you have used the LockDown Browser at another school, it won’t work at UVM unless you use this version: [http://www.respondus.com/lockdown/download.php?id=488814272](http://www.respondus.com/lockdown/download.php?id=488814272).
+>
+> You only need to install it once for all tests in your UVM Bb courses.
+> Note that you will need to use the LockDown Browser to see your grades and feedback, as well.
+> 
+
+ 
+
+## Practice 
+
+On Friday, I'll release an optional "practice" lock-down exam. It will have one practice questions, so we can all experience the glory of online testing. If you complete the pratice lock-down exam, you will earn 2 points toward the exam.
+--> 
+
+
+
+## Practice exam: 
+
+[Fall 2018 Practice Exam](../PracticeExams/StatsQuiz_Spring2018_print.pdf)
+
+[Fall 2018 Practice Exam Solutions](../PracticeExams/StatsQuiz_Spring2018_sol.pdf) (*I strongly recommend doing the practice exam in its entirety before reviewing the solutions*)

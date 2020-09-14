@@ -2,7 +2,7 @@
 title: "Research Paper: Idea Proposal"
 linktitle: "02 Research Ideas"
 date: "2020-08-26"
-due_date: "2020-11-11"
+due_date: "2020-09-30"
 due_time: "11:59 PM"
 menu:
   assignment:
@@ -13,4 +13,49 @@ editor_options:
   chunk_output_type: console
 ---
 
-TBD
+
+## The assignment 
+
+In short, come up with three research ideas and give me a bit of detail. It should include the following, and will likely span 2-3  paragraphs per research idea: 
+
+ - A research question
+ - A hypothesis/hypotheses
+ - A proposed data set
+ - A rough plan of analysis. 
+ 
+ All ideas should meet the basic criteria in our [assignment overview](01-researchpaper#topic-selection) (relevant to economic theory, answerable using data, use cross-sectional or panel data)
+
+
+## Coming up with an idea 
+
+For some of you, this may be **the best.** For me, being told, "think of an idea ... go!" is the WORST. That's okay! 
+
+So here's some advice. 
+
+1. Read Nick Huntington-Klein's [excellent chapter on research questions](https://nickchk.com/book/huntington-klein_causality_chapter2_research_questions.pdf)^[The [rest](https://nickchk.com/causalitybook.html) of it is great, too!]
+
+2. Jot down every question you can think of. If you need inspiration, open up a newspaper of your choice. I highly recommend the [NYTimes Upshot](https://www.nytimes.com/section/upshot), which has lots of data-driven, economics-linked questions. 
+
+3. Browse through [data set possibilities](../../bonus/rp-datasets/) and see if they spark joy
+
+4. Start with some [suggested research ideas](../../bonus/rp-resources/suggested-topics-1) from Wooldridge and iterate from there. 
+
+## Other questions? 
+
+- *So I have a paper from another class ... *  If you've worked on a topic for another class, that's fine to keep working on it here. However, it's important that the work you do for EC200 be original and an additional contribution beyond what the work for your other class. So same topic = okay, but same paper = not okay
+
+- *If I have a partner, what does this mean* If working with a partner, all assignments will be submitted jointly (aside from the referee report). So just one person needs to submit.
+
+
+## Rubric
+
+You will be graded on four criteria for each question (8 points per idea, 24 points total):
+
+||  	Does not meet |	Partially meets |	Fully meets|
+|--:|:---:|:---:|:---:|
+|Research question is clearly stated, specific, and answerable  |	0| 	1| 	2|
+|Hypothesis proposed and explained |	0 |	1 |	2|
+|Feasible data set(s) explicitly identified | 	0 |	1| 	2|
+|Rough description of how will test hypothesis to answer research question |	0 |	1 |	2|
+
+

@@ -41,7 +41,7 @@ following.
 
 -   It must have clear relevance to economic theory.
 
--   It must be answerable using data.
+-   It must be answerable using data (with a sample size of at least 100, ideally much higher!)
 
 -   It may not be an exact replication of previous work. It may,
     however, be an extension.
@@ -56,22 +56,11 @@ following.
 
 ## Research paper process {#research-paper-process .unnumbered}
 
-### Research ideas {#research-ideas .unnumbered}
+### [Research ideas](../idea-proposal) {#research-ideas .unnumbered}
 
 Prepare a set of 3 research ideas. An "idea" only needs to consist of
-about 1-2 paragraphs, which should include a research question, a
-proposed data set, and a rough plan of analysis. In class, we will form
-teams and informally discuss your ideas. Your teammates will provide
-feedback on which topics might be most promising, how you might refine
-your research questions or empirical strategy approach, and challenges
-you might want to think about in advance.
-
-If you are developing your own research questions, at least one
-questions should be from the suggested list of topics (this can be your
-back-up plan).
-
-After your idea discussion, you may decide to pair up with a classmate.
-That's great!
+about 2-3 paragraphs, which should include a research question, a hypothesis, a
+proposed data set, and a rough plan of analysis for testing your hypothesis. 
 
 ### [Data abstract](../data-abstract)  {#data-preparation .unnumbered}
 
@@ -119,9 +108,9 @@ conclusion, references, figures, and tables.
 
 -   All paper elements -- idea proposal, paper proposal, first draft,
     peer review forms, final research paper -- should be submitted
-    electronically via Blackboard in Word format.
+    electronically via Blackboard in Word or PDF format.
 
--   Format your tables in Excel or comparable software. Do not copy and
+-   **Format your tables in Excel or comparable software.** Do not copy and
     paste Stata output.
 
 -   Length requirements vary depending on the number of people in your
@@ -146,12 +135,9 @@ conclusion, references, figures, and tables.
 ### Deadlines {#deadlines .unnumbered}
 
 See [course schedule](../../schedule) for deadlines. Submit materials by **11:59pm** on
-the deadline. Submit all assignments via Blackboard. Late assignments
+the deadline. Submit all assignments via Blackboard. (Late assignments without an extenson
 will be penalized 10\% per day, and they may not receive detailed
-feedback. If something awful happens (medical emergency, computer crash,
-etc.) that affects your ability to meet a deadline, please let me know
-ASAP so we can make arrangements.
-
+feedback.) 
 ### Grading {#grading .unnumbered}
 
 I will provide formal or informal grading rubrics for each component, so
@@ -189,7 +175,7 @@ you have a clear idea of how you'll be graded.
     question.
 
 -   *How should I format my citations and bibliography?* Consistently.
-    APA, Chicago, or MLA
+    APA, Chicago, or MLA is fine.
 
 -   *How much data analysis do I need to do?* You should incorporate
     data analysis to answer your research question or test your

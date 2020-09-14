@@ -20,6 +20,10 @@ output:
 
 ## Getting Started {#getting-started .unnumbered}
 
+### Downloading Stata using AppsAnywhere 
+
+`r htmltools::HTML("{{< youtube K4MXZlGPYtU >}}")`
+
 
 ### Where is my home directory? {#home-directory .unnumbered}
 

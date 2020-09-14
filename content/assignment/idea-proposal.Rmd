@@ -16,7 +16,7 @@ editor_options:
 
 ## The assignment 
 
-In short, come up with three research ideas and give me a bit of detail. It should include the following, and will likely span 2-3  paragraphs per research idea: 
+1. In short, come up with three research ideas and give me a bit of detail. It should include the following, and will likely span 2-3  paragraphs per research idea: 
 
  - A research question
  - A hypothesis/hypotheses
@@ -25,6 +25,8 @@ In short, come up with three research ideas and give me a bit of detail. It shou
  
  All ideas should meet the basic criteria in our [assignment overview](01-researchpaper#topic-selection) (relevant to economic theory, answerable using data, use cross-sectional or panel data)
 
+
+2. [Set up a meeting using Calendly](https://calendly.com/emily-a-beam/15min) to meet with me to discuss your idea proposal. We need to meet within one week of the deadline (**October 7 at the latest**).
 
 ## Coming up with an idea 
 
@@ -57,5 +59,6 @@ You will be graded on four criteria for each question (8 points per idea, 24 poi
 |Hypothesis proposed and explained |	0 |	1 |	2|
 |Feasible data set(s) explicitly identified | 	0 |	1| 	2|
 |Rough description of how will test hypothesis to answer research question |	0 |	1 |	2|
+
 
 

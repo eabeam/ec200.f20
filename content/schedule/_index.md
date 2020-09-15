@@ -39,7 +39,7 @@ What's the plan?
 | 4|||**Simple Linear Regression (CH4)**   | | | |
 |  | 21 Sep | M | Exam 1: Probability and statistics review (CH2/3) | | || |  |
 |  | 23 Sep | W |[Simple linear regression](/content/03-content/) | [<i class="fas fa-tv"></i>](https://bb.uvm.edu) ||  | |
-|  | 24 Sep | F |[*CH5 content available*](/content/04-content)  |   | [<i class="fas fa-pencil-alt"></i>](/assignment/02-ps)| ||
+|  | 24 Sep | F |[*CH5 content available*](/content/04-content)  |   | | ||
 | ||||  | | | |
 | 5|||**SLR: Hypothesis tests (CH5)**   | | | |
 |  | 28 Sep | M | [SLR: Hypothesis tests](/content/04-content) | [<i class="fas fa-tv"></i>](https://bb.uvm.edu)|| | |

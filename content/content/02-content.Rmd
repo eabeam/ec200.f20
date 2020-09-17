@@ -65,11 +65,10 @@ This is the material you should know,  along with supports from [Khan Academy (<
 - SW 3.3	Confidence intervals for the population mean
   -  [<i class="fas fa-tv"> </i> Introduction to confidence intervals](https://www.khanacademy.org/math/ap-statistics/estimating-confidence-ap#introduction-confidence-intervals)
    - [<i class="fas fa-tv"> </i> Confidence intervals for means](https://www.khanacademy.org/math/ap-statistics/estimating-confidence-ap#one-sample-t-interval-mean)
-
-- **Skip SW3.4/3.5/3.6**
-- SW 3.6	Using the t-statistic when the sample size is small
-	- Only the first section, “the t-statistic and the student-t distribution”
-
+  - Note that I expect you can
+- SW 3.4 Comparing means from different populations 
+  - Only the type of two-sample test we've been practicing - look at difference between two means where the standard deviation is unknown and   you do not assume that they come from the same underlying population distribution. Make sure you can use foruma 3.19 and 3.20
+- **Skip SW 3.5/3.6**
 - SW 3.7	Scatterplots, the sample covariance, and the sample correlation
   - [<i class="fas fa-tv"> </i> Correlation coefficients](https://www.khanacademy.org/math/ap-statistics/bivariate-data-ap#correlation-coefficient-r)
 
@@ -79,7 +78,7 @@ This is the material you should know,  along with supports from [Khan Academy (<
 
 ## Videos
 
-- [Statistics Review](https://youtu.be/SYc3ccB872s)
+- [Statistics Review](https://youtu.be/dMFQw0DcOgU)
 Estimators/estimates, confidence intervals, and hypothesis testing
 `r htmltools::HTML("{{< youtube dMFQw0DcOgU >}}")`
 
@@ -99,3 +98,9 @@ You can download them as a word doc [here](../EC200-03-01practice.docx).
 
 
 Solutions [here](../EC200-03-01practice_solutions.pdf)
+
+Video-walkthrough 
+
+
+`r htmltools::HTML("{{< youtube q_NbBSDWcpI >}}")`
+

@@ -67,7 +67,7 @@ This is the material you should know,  along with supports from [Khan Academy (<
 	- Make sure you’re good with key concept box 2.3!
   - [<i class="fas fa-tv"> </i> Combining random variables](https://www.khanacademy.org/math/ap-statistics/random-variables-ap#combining-random-variables)
 - SW 2.4 The Normal, Chi-Squared, Student t, and F distributions 
-  - Normal and t-distribution only. We won’t use chi-squared, and we’ll come back to F-distributions later.
+  - Normal distribution ~~and t-distribution~~ only. We won’t use chi-squared, and we’ll come back to F-distributions later. For any work we'll be doing, our sample sizes will be greater than 100, so $t \rightarrow z$. 
   - [<i class="fas fa-tv"> </i> Normal distributions and the empirical rule](https://www.khanacademy.org/math/ap-statistics/density-curves-normal-distribution-ap#stats-normal-distributions)
   - [ <i class="fas fa-tv"> </i> Normal distribution calculations](https://www.khanacademy.org/math/ap-statistics/density-curves-normal-distribution-ap#normal-distributions-calculations)
 - SW 2.5 Random Sampling and the Distribution of the Sample Average 

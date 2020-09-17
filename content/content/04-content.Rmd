@@ -75,6 +75,6 @@ Discuss unbiasedness of estimators and effects of larger vs. smaller sample size
 
 ## Videos
 
-- [Statistics Review](https://youtu.be/dMFQw0DcOgU)
+- [Video: Linear Regression w/ One Variable](https://youtu.be/dMFQw0DcOgU)
 Estimators/estimates, confidence intervals, and hypothesis testing
 `r htmltools::HTML("{{< youtube dMFQw0DcOgU >}}")`

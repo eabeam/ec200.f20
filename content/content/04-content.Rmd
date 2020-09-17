@@ -1,0 +1,80 @@
+
+
+---
+title: Week 4 - Linear Regression with One Regressor
+sitetitle: Week 4
+summary: "EC200 - Week 4 Linear Regression (CH4)"
+
+date: "2020-09-16"
+start_date: "2020-09-21"
+end_date: "2020-09-25"
+
+  
+  # Academic page type (do not modify).
+type: docs
+menu:
+  content:
+    parent: Course content
+    weight: 5
+    
+output:
+  blogdown::html_page:
+    toc: true
+
+pdf: /slides/ch4-slides.pdf
+thumb: /slides/ch4-slides.png
+
+
+
+---
+
+## Overview
+
+Welcome to Week 4! We are proceeding boldly into the world of **linear regression.** We're starting by looking into the *linear* relationship between two variables. 
+
+
+![Not this](cheese-bedsheets.png)
+
+
+What we *won't* be doing is controlling for other factors, nor conducting statistical inference. We won't be looking at non-linear relationships yet either! Bah. 
+
+Rather, we're going to dive deep into what it means to look at how we can find a good estimate - nay, the best estimate! - of the relatonship between some $X$ and some $Y$.
+
+
+This is where *Stock and Watson* really start to shine. I highly recommend basking in their expertise and conversational style. 
+
+## Reading Guide
+
+**Chapter 4: Linear Regression with One Regressor**
+
+**SW 4.1** - The Linear Regression Model 
+
+This section is packed w/ good intuition and **bolded** vocabulary. Make sure you know it! 
+
+**SW 4.2** - Estimating the Coefficient of the Linear Regression Model? 
+
+You should be able to estimate linear regression coefficients *by hand* :yawn:. 
+
+**SW 4.3** Measures of Fit
+
+Know how to use and interpret $R^2$, $ESS$, $TSS$, $SSR$ and $SER$. You will also need to know how to find these from raw Stata output as well. 
+
+**SW 4.4** Least Squares Assumptions 
+
+Known and understand the three least squares assumptions 
+
+**SW 4.5**  Sampling Distribution of the OLS
+
+Discuss unbiasedness of estimators and effects of larger vs. smaller sample sizes on standard errors. We won't calculate standard errors by hand. 
+
+
+
+## Slides
+
+`r blogdown::shortcode("slides")`
+
+## Videos
+
+- [Statistics Review](https://youtu.be/dMFQw0DcOgU)
+Estimators/estimates, confidence intervals, and hypothesis testing
+`r htmltools::HTML("{{< youtube dMFQw0DcOgU >}}")`

@@ -20,6 +20,8 @@ menu: syllabus
 ![Correlation and causation](correlation.png)
 
 
+
+
 *Fall 2020 will be a strange semester. My operating principle is that we
 are all trying our best. I will work to accommodate personal
 emergencies, unpredictable schedules, general chaos as best I can.*

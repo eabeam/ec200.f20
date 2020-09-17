@@ -11,7 +11,7 @@ end_date: "2020-09-25"
 
   
   # Academic page type (do not modify).
-type: docs
+type: page
 menu:
   content:
     parent: Course content
@@ -32,10 +32,6 @@ thumb: /slides/ch4-slides.png
 
 Welcome to Week 4! We are proceeding boldly into the world of **linear regression.** We're starting by looking into the *linear* relationship between two variables. 
 
-
-![Not this](cheese-bedsheets.png)
-
-
 What we *won't* be doing is controlling for other factors, nor conducting statistical inference. We won't be looking at non-linear relationships yet either! Bah. 
 
 Rather, we're going to dive deep into what it means to look at how we can find a good estimate - nay, the best estimate! - of the relatonship between some $X$ and some $Y$.
@@ -53,7 +49,7 @@ This section is packed w/ good intuition and **bolded** vocabulary. Make sure yo
 
 **SW 4.2** - Estimating the Coefficient of the Linear Regression Model? 
 
-You should be able to estimate linear regression coefficients *by hand* :yawn:. 
+You should be able to estimate linear regression coefficients by hand :sleepy:. 
 
 **SW 4.3** Measures of Fit
 

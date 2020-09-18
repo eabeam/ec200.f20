@@ -70,7 +70,8 @@ Discuss unbiasedness of estimators and effects of larger vs. smaller sample size
 `r blogdown::shortcode("slides")`
 
 ## Videos
+- [Video: Linear Regression w/ One Variable](https://youtu.be/tB8ayLyMOgU)
+`r htmltools::HTML("{{< youtube tB8ayLyMOgU >}}")`
 
-- [Video: Linear Regression w/ One Variable](https://youtu.be/dMFQw0DcOgU)
-Estimators/estimates, confidence intervals, and hypothesis testing
-`r htmltools::HTML("{{< youtube dMFQw0DcOgU >}}")`
+-[Video: Derivation of $\hat{\beta_0}$ and $\hat{\beta_1}$](https://youtu.be/0jetwjxb-6w)
+`r htmltools::HTML("{{< youtube 0jetwjxb-6w >}}")`

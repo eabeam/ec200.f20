@@ -64,14 +64,33 @@ Known and understand the three least squares assumptions
 Discuss unbiasedness of estimators and effects of larger vs. smaller sample sizes on standard errors. We won't calculate standard errors by hand. 
 
 
+## Note on causality 
+
+At this stage, we are thinking about *making good model* of data, but not necessarily the **data generating process** behind that data. When we use the framing of an **independent** and **dependent** variables, it's tempting to think that we're examining whether the **independent** variable *causes* the **dependent** variable.
+
+At this point in the course, we're looking at associations which *could* be causal ... or they could not be! 
+
+
+```{r echo=FALSE}
+blogdown::shortcode('tweet', '1308094245669081089')
+```
 
 ## Slides
 
 `r blogdown::shortcode("slides")`
 
 ## Videos
-- [Video: Linear Regression w/ One Variable](https://youtu.be/tB8ayLyMOgU)
+### [Video: Linear Regression w/ One Variable](https://youtu.be/tB8ayLyMOgU)
 `r htmltools::HTML("{{< youtube tB8ayLyMOgU >}}")`
 
--[Video: Derivation of $\hat{\beta_0}$ and $\hat{\beta_1}$](https://youtu.be/0jetwjxb-6w)
+### [Video: Derivation of $\hat{\beta_0}$ and $\hat{\beta_1}$](https://youtu.be/0jetwjxb-6w)
+
+*Here, I work through how we derive estimates of $\hat{\beta_0}$ and $\hat{\beta_1}$ using our good friend, calculus.*
 `r htmltools::HTML("{{< youtube 0jetwjxb-6w >}}")`
+
+### [Video: Building intuition around the OLS model](https://youtu.be/rlrAeVlQusw)
+
+*You can play along with the [same simulator!](https://phet.colorado.edu/sims/html/least-squares-regression/latest/least-squares-regression_en.html)*
+`r htmltools::HTML("{{< youtube rlrAeVlQusw >}}")`
+
+

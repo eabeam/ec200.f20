@@ -2,7 +2,7 @@
 ---
 title: "Problem set 3"
 linktitle: "PS 3"
-date: "2020-09-25"
+date: "2020-09-24"
 due_date: "2020-10-02"
 due_time: "02:20 PM"
 menu:

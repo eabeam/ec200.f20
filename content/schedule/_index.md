@@ -34,15 +34,15 @@ What's the plan?
 |3 |||**Statistics Review (CH3)**   | | | ||
 |  | 14 Sep | M | [Statistics review](/content/02-content/) | [<i class="fas fa-tv"></i>](https://bb.uvm.edu)||[<i class="fas fa-laptop-code"></i>](/assignment/02-lab) |  |
 |  | 16 Sep | W | [<i class="fas fa-dragon"></i> Research paper introduction](/assignment/01-researchpaper) |  ||  | |
-|  | 18 Sep | F |[*CH4 content available*](/content/03-content)   | | [<i class="fas fa-pencil-alt"></i>](/assignment/02-ps)| ||
+|  | 18 Sep | F |[*CH4 content available*](/content/04-content)   | | [<i class="fas fa-pencil-alt"></i>](/assignment/02-ps)| ||
 | ||| | | | |
 | 4|||**Simple Linear Regression (CH4)**   | | | |
 |  | 21 Sep | M | Exam 1: Probability and statistics review (CH2/3) | | || |  |
-|  | 23 Sep | W |[Simple linear regression](/content/03-content/) | [<i class="fas fa-tv"></i>](https://bb.uvm.edu) ||  | |
-|  | 24 Sep | F |[*CH5 content available*](/content/04-content)  |   | | ||
+|  | 23 Sep | W |[Simple linear regression](/content/04-content/) | [<i class="fas fa-tv"></i>](https://bb.uvm.edu) ||  | |
+|  | 24 Sep | F |[*CH5 content available*](/content/05-content)  |   | | ||
 | ||||  | | | |
 | 5|||**SLR: Hypothesis tests (CH5)**   | | | |
-|  | 28 Sep | M | [SLR: Hypothesis tests](/content/04-content) | [<i class="fas fa-tv"></i>](https://bb.uvm.edu)|| | |
+|  | 28 Sep | M | [SLR: Hypothesis tests](/content/05-content) | [<i class="fas fa-tv"></i>](https://bb.uvm.edu)|| | |
 |  | 30 Sep | W | [Lab 3: Regression in Stata](/assignment/03-lab) |  | | | [<i class="fas fa-dragon"></i> Ideas](/assignment/idea-proposal)|
 |  | 02 Oct | F |[*CH6 content available*](/content/05-content) || [<i class="fas fa-pencil-alt"></i>](/assignment/03-ps)| | |
 | ||||  | | | |

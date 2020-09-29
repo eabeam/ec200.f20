@@ -82,4 +82,8 @@ For the good times.
 ### [Video: Inference with One-Variable Linear Regression](https://youtu.be/DZo5m5q3bmA)
 `r htmltools::HTML("{{< youtube DZo5m5q3bmA >}}")`
 
+## Other resources 
 
+ - [EGAP: 10 things to know about hypothesis testing](https://egap.org/resource/10-things-to-know-about-hypothesis-testing/)
+ - [EGAP: 10 things to know about statistical power](https://egap.org/resource/10-things-to-know-about-statistical-power/) - gets a bit deeper than we go, but accessible and handy!
+ 

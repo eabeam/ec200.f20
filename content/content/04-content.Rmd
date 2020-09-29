@@ -70,7 +70,7 @@ At this stage, we are thinking about *making good model* of data, but not necess
 
 At this point in the course, we're looking at associations which *could* be causal ... or they could not be! 
 
-
+If you want to dig deeper, check out this great guide from EGAP:[10 things to know about causal inference](https://egap.org/resource/10-things-to-know-about-causal-inference/).
 ```{r echo=FALSE}
 blogdown::shortcode('tweet', '1308094245669081089')
 ```

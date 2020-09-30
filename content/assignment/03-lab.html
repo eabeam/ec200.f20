@@ -106,7 +106,11 @@ tasks in Stata:</p>
 </tr>
 <tr class="even">
 <td align="left"><code>drop if missing(var1)</code></td>
-<td align="right">drop all observations where <code>var1 is missing|  |tab</code>var1`,missing</td>
+<td align="right">drop all observations where <code>var1</code> is missing</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>tab var1, missing</code></td>
+<td align="right">Include missing values in tabulation</td>
 </tr>
 </tbody>
 </table>
@@ -116,13 +120,13 @@ tasks in Stata:</p>
 <p>Today, we’re going to look around at the graduation data set that we discussed in class, <a href="../materials/graduation.dta"><code>graduation.dta</code></a>.</p>
 <ol style="list-style-type: decimal">
 <li><p>Download the do-file template and data files. Personalize the file paths so that you can run it and open your <code>graduation.dta</code> file. You can also work with a blank data file if you’re more comfortable - just make sure you remember to include commands to start and close your log file.</p></li>
-<li><p>Take a look at <code>graduation.dta</code>. How many observations are there? What is the distribution of treatment arms?</p></li>
-<li><p>There are six <em>continuous</em> food security variables (not <code>fsec7</code>, which is categorical, or <code>fsec</code> which is always equal to 1) . You can look for them with <code>lookfor fs</code>. Pick one of them, and write out a a population model to determine the relationship assignment to graduation and food security. For the rest of this lab, I refer to it as <code>foodsecurity.</code></p></li>
-<li><p>Tabulate your food security value and check for missing observations. Drop any observations for which you have missing values of <code>foodsecurity</code> (see above for how to do this).</p></li>
+<li><p>Take a look at <code>graduation.dta</code>. How many observations are there? What is the distribution of treatment arms?<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a></p></li>
+<li><p>There are six <em>continuous</em> food security variables<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a>. You can look for them with <code>lookfor fs</code>. Pick one variable and write out a population model to determine the relationship assignment to graduation and food security. For the rest of this lab, I refer to the variable you chose as <code>foodsecurity</code>. If that’s going to irritate you, you can rename your variable like this: <code>rename fsec5 foodsecurity</code>, using the variable name that you’ve chosen in place of <code>fsec5</code>.</p></li>
+<li><p>Tabulate your food security value and check for missing observations. Drop any observations for which you have missing values of <code>foodsecurity</code> (see above for how to do this). How many observations are remaining?</p></li>
 <li><p>Make a scatter plot of the relationship between your chosen food security variable and
-graduation (Include this in your submitted problem set). Is this easy to interpret? Report
+graduation (Include this in your submitted problem set). Is this easy to interpret? Calculate and report
 the associated correlation coefficient.</p></li>
-<li><p>Conduct a t-test of whether the mean of <code>foodsecurity</code> is different between those who did and did not receive the graduation program<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a></p></li>
+<li><p>Conduct a t-test of whether the mean of <code>foodsecurity</code> is different between those who did and did not receive the graduation program<a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a></p></li>
 <li><p>Estimate the relationship between your chosen food security variable, <code>foodsecurity</code> and assignment to graduation, <code>graduation</code> using simple linear regression, with standard (homoskedasticity-assumed) standard errors. How do your t-statistics compare to what you found in the previous t-test? What was the impact of assignment to the graduation program on food security, based on your regression?</p></li>
 <li><p>Re-estimate your regression, and this time adjust your standard errors to be heteroskedasticity-robust. Fill in the chart below with your estimates.</p></li>
 </ol>
@@ -167,17 +171,17 @@ the associated correlation coefficient.</p></li>
 value of your food security variable. Generate a second variable, <code>resid_fs</code> equal to the
 residual.</p></li>
 <li><p>What is the mean of each variable? How does the mean of <code>predict_fs</code>
-compare to mean of <code>foodsecurity</code> in your sample?</p></li>
+compare to mean of <code>foodsecurity</code> in your sample?<a href="#fn7" class="footnote-ref" id="fnref7"><sup>7</sup></a></p></li>
 <li><p>Examine the predicted value of your food security variable, <code>predict_fs</code>, for the <em>youngest</em> person in your
-sample. What is its residual?</p></li>
+sample.<a href="#fn8" class="footnote-ref" id="fnref8"><sup>8</sup></a> What is its residual?</p></li>
 <li><p>When we estimate a linear regression with no coefficients, sometimes
 we’ll say we are “regressing on a constant.” Regress <code>foodsecurity</code>
 <em>only</em> on a constant. What is <span class="math inline">\(\hat{\beta_0}\)</span>, and how does it
 compare to overall mean?</p></li>
-<li><p>For this final step, I’d like you to play around with the data. Pick <strong>one</strong> continuous dependent variable and <strong>one</strong> continuous <em>or</em> binary independent variable.<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a> You can look at the correlation between two variables, or you can look at the impact of one of the program dimensions (group coaching, group livelihood, etc)</p>
+<li><p>For this final step, I’d like you to play around with the data. Pick <strong>one</strong> continuous dependent variable and <strong>one</strong> continuous <em>or</em> binary independent variable.<a href="#fn9" class="footnote-ref" id="fnref9"><sup>9</sup></a> You can look at the correlation between two variables, or you can look at the impact of one of the program dimensions (group coaching, group livelihood, etc) on an <em>continuous</em> outcome of interest.</p>
 <ol style="list-style-type: lower-alpha">
 <li>Write a population model you want to estimate.</li>
-<li>Estimate it using OLS, adjusting your standard errors to be heteroskedasticity robust.</li>
+<li>Estimate it using OLS, adjusting your standard errors to be heteroskedasticity robust. Write an equation that reflects your estimated model in the form <span class="math inline">\(\hat{y}=\hat{\beta_0} + \hat{\beta_1}x\)</span>, replacing <span class="math inline">\(y\)</span> and <span class="math inline">\(x\)</span> with your chosen varables and replacing <span class="math inline">\(\hat{\beta_0}\)</span> and <span class="math inline">\(\hat{\beta_1}\)</span> with your estimates.</li>
 <li>In 1-2 sentences, , what do your results tell you, collectively?</li>
 </ol></li>
 </ol>
@@ -200,7 +204,11 @@ We don't want to overweight the importance of this, but it can be a helpful diag
 <li id="fn1"><p>Post-estimation commands must be run <em>immedately</em> after a regression, while the regression results are still held in your local variables<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
 <li id="fn2"><p>Here, <code>newvar</code> equals <span class="math inline">\(\widehat{newvar_i} = \widehat{y_i} = \widehat{\beta_0} + \widehat{\beta_1}x_i\)</span><a href="#fnref2" class="footnote-back">↩︎</a></p></li>
 <li id="fn3"><p>Here, <code>newvar</code> equals <span class="math inline">\(\widehat{newvar_i} = u_i = y_i - \widehat{\beta_0} + \widehat{\beta_1}x_i\)</span><a href="#fnref3" class="footnote-back">↩︎</a></p></li>
-<li id="fn4"><p>Hint; <code>ttest var1,by(var2)</code> will run a t-test of the mean of <code>var1</code> are equal for two groups determined by <code>var2</code>. <a href="#fnref4" class="footnote-back">↩︎</a></p></li>
-<li id="fn5"><p>Categorical variables that take on a just few observations, like the identity of your head of household, won’t work here. You’ll need to tabulate the variables to see what you’re working with<a href="#fnref5" class="footnote-back">↩︎</a></p></li>
+<li id="fn4"><p>There are a few variables here, including <code>treatment_arm</code><a href="#fnref4" class="footnote-back">↩︎</a></p></li>
+<li id="fn5"><p>Not <code>fsec7</code>, which is categorical, or <code>fsec</code> which is always equal to 1<a href="#fnref5" class="footnote-back">↩︎</a></p></li>
+<li id="fn6"><p>Hint; <code>ttest var1,by(var2)</code> will run a t-test of the mean of <code>var1</code> are equal for two groups determined by <code>var2</code>. <a href="#fnref6" class="footnote-back">↩︎</a></p></li>
+<li id="fn7"><p>If they differ, you should make sure you have dropped all missing values of <code>foodsecurity</code>! Try <code>sum predict_fs foodsecurity</code> to see if the sample sizes are the same<a href="#fnref7" class="footnote-back">↩︎</a></p></li>
+<li id="fn8"><p>Now is a good time to try out <code>lookfor age</code><a href="#fnref8" class="footnote-back">↩︎</a></p></li>
+<li id="fn9"><p>Categorical variables that take on a just few observations, like the identity of your head of household, won’t work here. You’ll need to tabulate the variables to see what you’re working with<a href="#fnref9" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>

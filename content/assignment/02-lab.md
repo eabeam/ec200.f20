@@ -13,10 +13,14 @@ type: docs
 editor_options: 
   chunk_output_type: console
 ---
+
+
 ## Materials {#materials .unnumbered}
 
-- [`acs2014_all.dta`](https://www.dropbox.com/s/q7w8uz0f9vm0ghe/acs2014_all.dta?dl=0)
-- Do-file template [`labtemplate.do`](https://www.dropbox.com/s/s71vxnktcrfd14q/labtemplate_f20.do?dl=0) 
+- [`acs2014_all.dta`](../materials/acs2014_all.dta)
+- Do-file template [`labtemplate.do`](../materials/labtemplate_f20.do) 
+
+
 ## Objectives {#objectives .unnumbered}
 
 

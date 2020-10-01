@@ -8,7 +8,7 @@ menu:
   resources:
     parent: Resources
     weight: 4
-  
+toc: true
   # Academic page type (do not modify).
 type: docs
 output:
@@ -51,3 +51,17 @@ Our Stata labs will get you started with Stata, but at some point you'll want to
 
 
 _If you come across something else, let me know and I'll pass along the recommendation!_
+
+
+## How do I ... 
+
+### Work with do-files? 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/17TRloq237M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3hlTtlR-_a8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Work with log files? 
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/17TRloq237M?start=196" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

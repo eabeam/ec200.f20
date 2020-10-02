@@ -55,6 +55,8 @@ tasks in Stata:
 | `drop if missing(var1)` | drop all observations where `var1` is missing| 
 | `tab var1, missing` | Include missing values in tabulation| 
 
+## Reading regression tables 
+<img src="../regression-label.png" alt="labelled Stata output">
 
 ## Lab 3 Worksheet {#lab-3-worksheet .unnumbered}
 

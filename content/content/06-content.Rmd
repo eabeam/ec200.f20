@@ -1,0 +1,89 @@
+
+
+---
+title: Week 6 - Multiple Linear Regression
+sitetitle: Week 6
+summary: "EC200 - Week 6 Multiple Regression (CH6)"
+
+date: "2020-10-02"
+start_date: "2020-10-05"
+end_date: "2020-10-09"
+
+  
+  # Academic page type (do not modify).
+type: docs
+menu:
+  content:
+    parent: Course content
+    weight: 6
+    
+output:
+  blogdown::html_page:
+    toc: true
+
+pdf: /slides/ch6-slides.pdf
+thumb: /slides/ch6-slides.png
+
+
+
+---
+
+## Overview
+
+Let's model! 
+
+Now, we can build powerful models with heaps of dependent variables. Want to predict wages? Let's control for education, for experience, for gender, for age, for age *squared* (yes!). YES. Only our degrees of freedom can hold us back. 
+
+
+## Reading Guide
+
+#### **Chapter 6: Linear Regression with Multiple Regressors**
+
+#### **SW 6.1** Omitted Variable Bias 
+
+A discussion that connects nicely with our previous discussion of the zero conditional mean discussion and causal inference. 
+
+#### **SW 6.2** The Multiple Regression Model 
+
+Hooray!
+
+#### **SW 6.3** The OLS Estimator in Multiple Regression
+
+This section doesn't get into derivation, and neither do we! 
+
+#### **SW 6.4** Measures of Fit in Multiple Regression 
+
+The only *new* thing here is a revised $SER$ forumla and the introduction of the Adjusted $R^2$. Note that the lecture video also discusses the root mean standard error, $RMSE$, which is a lot like the $SER$ except that it uses $n$ rather than degrees of freedom as a denominator. 
+
+#### **SW 6.5** The Least Squares Assumptions in Multiple Regression 
+
+Take the three from univariate regression and add ... no multicollinearity. Sorted. 
+
+#### **SW 6.6** Distribution of the OLS Estimators in Multiple Regression 
+
+Just the intuition, don't worry about the appendix. 
+
+#### **SW 6.7** Multicollinearity 
+
+Make sure you understand the examples, but remember that in practice, any statistical package will fix perfect multicollinearity on its own. Imperfect multicollinearity, on the other hand, is something to think about when crafting your models. 
+
+
+#### **SW 6.8**	Conclusion
+
+Treat yourself. 
+
+## Slides
+
+`r blogdown::shortcode("slides")`
+
+## Videos
+### [Video: Multiple Linear Regression](https://youtu.be/XIrD0qD0TCs)
+`r htmltools::HTML("{{< youtube XIrD0qD0TCs >}}")`
+
+## Other resources 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">As requested, slower graphs! Also added a graph on collider bias, the webpage explanation helps there.<br><br>These graphs are intended to show what standard causal inference methods actually *do* to data, and how they work.<br><br>This is what controlling for a binary variable looks like: <a href="https://t.co/dTZxqY5JxA">pic.twitter.com/dTZxqY5JxA</a></p>&mdash; Nick HK (@nickchk) <a href="https://twitter.com/nickchk/status/1068215492458905600?ref_src=twsrc%5Etfw">November 29, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+
+
+ 

@@ -37,6 +37,10 @@ thumb: /slides/ch6-slides.png
 <ul>
 <li><a href="#video-multiple-linear-regression"><span>Video: Multiple Linear Regression</span></a></li>
 </ul></li>
+<li><a href="#in-class-exercises">In-class exercises</a>
+<ul>
+<li><a href="#exercises">Exercises</a></li>
+</ul></li>
 <li><a href="#other-resources">Other resources</a></li>
 </ul>
 </div>
@@ -93,6 +97,43 @@ thumb: /slides/ch6-slides.png
 <div id="video-multiple-linear-regression" class="section level3">
 <h3><a href="https://youtu.be/XIrD0qD0TCs">Video: Multiple Linear Regression</a></h3>
 {{< youtube XIrD0qD0TCs >}}
+</div>
+</div>
+<div id="in-class-exercises" class="section level2">
+<h2>In-class exercises</h2>
+<p>Download PDF <a href="../practice/W6-01-in-class-exercise.pdf">here</a></p>
+<div id="exercises" class="section level3">
+<h3>Exercises</h3>
+<p>Consider a dataset on earnings in the United States. We are interested
+in the returns to education - how much an extra year of schooling “buys”
+you in terms of weekly wages (...as of 1980). You’re also worried about
+whether one’s education suffers from omitted variable bias.</p>
+<ol style="list-style-type: decimal">
+<li><p>You estimate two equations:</p>
+<p><span class="math display">\[\begin{aligned}
+\hat{education} &amp;= 146.95 + 60.21educ\\
+\hat{educ} &amp; = 5.84 + 0.075IQ\end{aligned}\]</span></p>
+<p>Based on these results, is 60.21 an overestimate or underestimate of
+the returns to education? How do you know?</p></li>
+<li><p>You estimate another equation:
+<span class="math display">\[\hat{education} = -128.89 +42.06 educ + 5.14 IQ\]</span></p>
+<p>What is the interpretation of the coefficient on <span class="math inline">\(educ\)</span>? What is the
+interpretation of the constant?</p></li>
+<li><p>Now, you control experience and age and estimate the following
+population regression model:</p>
+<p><span class="math display">\[wage_i = \beta_0 + \beta_1 educ + \beta_2 exper + \beta_3 age + \beta_4 age^2 + u\]</span></p>
+<p>A one-year increase in age is associated with what change in wages?
+(mind the squared term)</p></li>
+<li><p>Finally, because you are worried about omitted variable bias, you
+include father’s and mother’s education.</p>
+<ol style="list-style-type: decimal">
+<li><p>Why might parent’s education might directly affect wage?</p></li>
+<li><p>Which other independent variables do you think parent’s
+education might affect? Explain.</p></li>
+<li><p>How did controlling for parent’s education affect the returns to
+education? The returns to IQ?</p></li>
+</ol></li>
+</ol>
 </div>
 </div>
 <div id="other-resources" class="section level2">

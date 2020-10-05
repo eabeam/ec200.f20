@@ -80,6 +80,51 @@ Treat yourself.
 ### [Video: Multiple Linear Regression](https://youtu.be/XIrD0qD0TCs)
 `r htmltools::HTML("{{< youtube XIrD0qD0TCs >}}")`
 
+
+## In-class exercises 
+
+Download PDF [here](../practice/W6-01-in-class-exercise.pdf)
+
+### Exercises
+Consider a dataset on earnings in the United States. We are interested
+in the returns to education - how much an extra year of schooling "buys"
+you in terms of weekly wages (\...as of 1980). You're also worried about
+whether one's education suffers from omitted variable bias.
+
+1.  You estimate two equations:
+
+    $$\begin{aligned}
+    \hat{education} &= 146.95 + 60.21educ\\
+    \hat{educ} & = 5.84 + 0.075IQ\end{aligned}$$
+
+    Based on these results, is 60.21 an overestimate or underestimate of
+    the returns to education? How do you know?
+
+2.  You estimate another equation:
+    $$\hat{education} = -128.89 +42.06 educ + 5.14 IQ$$
+
+    What is the interpretation of the coefficient on $educ$? What is the
+    interpretation of the constant?
+
+3.  Now, you control experience and age and estimate the following
+    population regression model:
+
+    $$wage_i = \beta_0 + \beta_1 educ + \beta_2 exper + \beta_3 age + \beta_4 age^2 + u$$
+
+    A one-year increase in age is associated with what change in wages?
+    (mind the squared term)
+
+4.  Finally, because you are worried about omitted variable bias, you
+    include father's and mother's education.
+
+    1.  Why might parent's education might directly affect wage?
+
+    2.  Which other independent variables do you think parent's
+        education might affect? Explain.
+
+    3.  How did controlling for parent's education affect the returns to
+        education? The returns to IQ?
+
 ## Other resources 
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">As requested, slower graphs! Also added a graph on collider bias, the webpage explanation helps there.<br><br>These graphs are intended to show what standard causal inference methods actually *do* to data, and how they work.<br><br>This is what controlling for a binary variable looks like: <a href="https://t.co/dTZxqY5JxA">pic.twitter.com/dTZxqY5JxA</a></p>&mdash; Nick HK (@nickchk) <a href="https://twitter.com/nickchk/status/1068215492458905600?ref_src=twsrc%5Etfw">November 29, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 

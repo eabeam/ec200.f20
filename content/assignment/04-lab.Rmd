@@ -286,7 +286,11 @@ When we include a dummy variable for every value of a categorical variable, like
     
     
     
+## Video 
     
+
+### [Video: Class Recording 07 October 2020](https://youtu.be/c8zSRqkS_SA)
+`r htmltools::HTML("{{< youtube c8zSRqkS_SA >}}")`
 
   <!--
    

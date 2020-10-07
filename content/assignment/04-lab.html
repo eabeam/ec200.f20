@@ -38,6 +38,7 @@ editor_options:
 <ul>
 <li><a href="../materials/cps_2016.dta"><code>cps_2016.dta</code></a></li>
 <li>Do-file template <a href="../materials/labtemplate_f20.do"><code>labtemplate.do</code></a></li>
+<li>Looping exercise <a href="../materials/loop_example.do"><code>loop_example.do</code></a></li>
 </ul>
 </div>
 <div id="objectives" class="section level2 unnumbered">
@@ -172,8 +173,8 @@ regress incwage black_nh hisp other</code></pre>
 <li>Fast way: tell Stata to create a binary variable for each value of a categorical variable. This is good when you aren’t trying to do anything complicated and when you want to be quick - very useful if you want something like state-level dummies.</li>
 </ul>
 <pre><code>regress incwage i.statefip</code></pre>
-<p>Note that this will work only if your categorical variable is numeric. If it’s a string you’ll get an error. You can fix it by adding a <code>xi:</code> prefix, like so:
-<code>xi: regress incwage i.statefip</code></p>
+<p>Note that this will work only if your categorical variable is numeric. If it’s a string you’ll get an error. You can fix it by adding a <code>xi:</code> prefix, like so:</p>
+<pre><code>xi: regress incwage i.statefip</code></pre>
 <p>When we include a dummy variable for every value of a categorical variable, like above, we call those “fixed effects”. We’ll talk about these more soon.</p>
 </div>
 </div>
@@ -184,8 +185,10 @@ regress incwage black_nh hisp other</code></pre>
 <div id="lab-4-worksheet" class="section level2 unnumbered">
 <h2>Lab 4 Worksheet</h2>
 <p>Download the do-file template and data files. Personalize the file paths so that you can run it and open your <code>cps_2016.dta</code> file. You can also work with a blank data file if you’re more comfortable - just make sure you remember to include commands to start and close your log file.</p>
+<p><em>Use robust standard errors in all regressions</em></p>
 <ol style="list-style-type: decimal">
-<li><p>Let’s practice with loops! To start, use a loop to generate a dummy variable for each possible value of public housing, <code>pubhous</code>. That is, you would have <code>_pubhous0</code>, a binary variable for whether <code>pubhouse == 0</code>, <code>_pubhous1</code>, a binary variable for whether <code>pubhouse == 1</code>, etc.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p></li>
+<li><p>Let’s practice with loops! Download <a href="../materials/loop_example.do">loop_example.do</a> and paste the code into your sample. Run it and look at the output. In your do-file, write comments that describe what each loop is going.</p></li>
+<li><p>Now, go back to your <code>cps_2016.dta</code> file. Write a loop to generate a dummy variable for each possible value of public housing, <code>pubhous</code>. That is, you would have <code>_pubhous0</code>, a binary variable for whether <code>pubhouse == 0</code>, <code>_pubhous1</code>, a binary variable for whether <code>pubhouse == 1</code>, etc.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p></li>
 <li><p>Look through the available list of data (note, <a href="https://cps.ipums.org/cps/">IPUMS</a> has full
 documentation of all variables). Based on this data, think of a
 research question for your lab of the form, “What is the
@@ -226,9 +229,6 @@ associated with your key independent variable, <span class="math inline">\(X\)</
 find? What is the p-value? What is the interpretation?</p></li>
 <li><p>Besides your key independent variable, which other variables are
 statistically significant at the five-percent level?</p></li>
-<li><p>Estimate your model again (from part 8), but now exclude any variables
-that are not statistically significant. How does this affect the
-standard error of <span class="math inline">\(\widehat{\beta_X}\)</span>? Your <span class="math inline">\(R^2\)</span>? Your adjusted <span class="math inline">\(R^2\)</span>? <em>Note that the purpose of this exercise is to see how standard errors and measures of model fit are affected by the inclusion of non-significant controls. It is <strong>not</strong> to suggest you shoudl only include significant independent variables in regressions.</em></p></li>
 <li><p>A lot of student research papers will look at differences in outcomes by
 gender and by racial/ethnic groups. U.S. surveys like the CPS, ACS, and Census treat race and
 ethnicity a little strangely, and it can take some practice to get
@@ -252,8 +252,7 @@ these five groupings.</p></li>
 </ol></li>
 <li><p>Estimate your multiple linear regression model from
 earlier, but include the race/ethnicity variables that you created
-in the previous part. (If you already controlled for race/ethnicity
-in your first model, use these categorical variables instead.). How
+in the previous part. How
 do the inclusion of these factors affect your estimates of the
 relationship between <span class="math inline">\(Y\)</span> and <span class="math inline">\(X\)</span>?</p></li>
 <li><p>Now, add “state fixed effects” to your regression. This is a set of binary 0/1 variables, one for each state, which essentially pull out any mean differences in your dependent variable at the state level - so if your outcome variable is different for people in Oregon vs. New York on average, these variables will take care of it. How

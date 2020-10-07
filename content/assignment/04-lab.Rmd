@@ -20,7 +20,7 @@ editor_options:
 - [`cps_2016.dta`](../materials/cps_2016.dta)
 - Do-file template [`labtemplate.do`](../materials/labtemplate_f20.do) 
 - Looping exercise [`loop_example.do`](../materials/loop_example.do) 
-
+- Sample from class [`lab4_sample.do`](../materials/lab4_sample.do)
 
 ## Objectives {#objectives .unnumbered}
 
@@ -75,6 +75,8 @@ whether a person is White.
 ### Working with loops 
 
 Loops can help us (1) avoid errors and (2) code super fast! 
+
+I've uploaded a sample from our class [`here, as lab4_sample.do`](../materials/lab4_sample.do)
 
 Stata has two types of looping setups, using the `forval` or `foreach` command. The first is simpler, and the second is more versatile. Recall that you can always use `help forval` or `help foreach` if your code isn't working or if you have a vision you're not sure how to realize. 
 

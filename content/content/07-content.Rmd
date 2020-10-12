@@ -69,6 +69,4 @@ Here, we test one restriction, but with multiple coefficients, like this: $H_0: 
 ### [Video: Hypothesis Tests with Multiple Linear Regression](https://youtu.be/qjgyS9u2EWM )
 `r htmltools::HTML("{{< youtube qjgyS9u2EWM >}}")`
 
-
-
- 
+## I

@@ -5,8 +5,9 @@ These don't require any data
 */ 
 
 clear 
+set seed 100920
 
-set obs 100 
+set obs 10000
  forvalues i = 1(1)100 {
     generate x`i' = runiform()
  }

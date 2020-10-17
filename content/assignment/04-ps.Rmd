@@ -40,7 +40,15 @@ See the exercises below, or you can [download them as a pdf](../04-ps.pdf). You 
 
 2. A research plans to study the casual effect of police on crime, using data from a random sample of U.S. counties. She plans to regress the county's crime rate on the (per capita) size of the county's police force. 
     a. Explain why this regression is likely to suffer from omitted variable bias. Which variables would you add to the regression to control for important omitted variables? 
+    
+    
+    
     a. Use your answer to (a) and the expression for omitted variable bias (from the slides or textbook) to determine whether the regression will likely over- or underestimate the effect of police on the crime rate. (That is, is $\hat{\beta_1}>\beta_1$, or that $\hat{\beta_1} < \beta_1$?)
+    
+    
+    
+    
+    
 <!-- SW additional emirical exercise 7.2 -->
 
 

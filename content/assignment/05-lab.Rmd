@@ -86,6 +86,12 @@ tab _merge    // check out merge
 
 list
 ```
+
+## Class Video 
+
+<iframe src="https://streaming.uvm.edu/media/embed/yA6sJRs/" width="640" height="480" frameborder="0" allowfullscreen></iframe>
+
+
 ## Lab 5 Worksheet 
 ### What do I submit?
 

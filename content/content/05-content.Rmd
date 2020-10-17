@@ -48,6 +48,12 @@ We are going to use this ALL THE TIME.
 
 **SW 5.4**	Heteroskedasticity and homoskedasticity 
 
+
+```{r echo=FALSE}
+blogdown::shortcode('tweet', '1316528345224343552')
+```
+
+
 Drop "heteroskedasticity" into any conversation and you're sure to delight. Just one more benefit of EC200. 
 The examples and implications of heteroskedasticity are important. 
 

@@ -137,6 +137,10 @@ Two things that may be useful to you:
 
 --> 
 
+## In-class practice 
+
+-[10-21 practice questions](../practice/unitquiz1-practicequestions.pdf)
+
 ## Past exams  {#practice-exam .unnumbered}
 
 Use these for additional practice and to get a sense of the level of questions. However, note three things: 

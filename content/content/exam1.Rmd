@@ -5,7 +5,7 @@ title: Exam 1
 sitetitle: Exam 1
 summary: "EC200 - Exam 1 Prep (EC200) "
 
-date: "2020-10-20"
+date: "2020-10-17"
 
 
   
@@ -20,6 +20,9 @@ output:
   blogdown::html_page:
     toc: true
 
+
+pdf: /slides/exam1-review.pdf
+thumb: /slides/exam1-review.png
 
 
 ---
@@ -137,7 +140,13 @@ Two things that may be useful to you:
 
 --> 
 
-## In-class practice 
+## In-class review and practice 
+
+### Slides (10/19)
+
+`r blogdown::shortcode("slides")`
+
+### Practice questions (10/21)
 
 -[10-21 practice questions](../practice/unitquiz1-practicequestions.pdf)
 

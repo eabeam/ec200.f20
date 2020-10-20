@@ -57,24 +57,31 @@ What's the plan?
 |  | 16 Oct | F | [*CH8 content available*](/content/08-content) |  |[<i class="fas fa-pencil-alt"></i>](/assignment/04-ps)| | ||
 | ||||  | | | |
 | 8|||**Non-linear regressions (CH8)**   | | | |
-|  | 19 Oct | M | [Non-linear regression](/content/08-content) | [<i class="fas fa-tv"></i>](https://bb.uvm.edu)| |[<i class="fas fa-laptop-code"></i>](/assignment/05-lab) |
-|  | 21 Oct | W | Exam Review |  | || |
-|  | 23 Oct | F | Quiz 2: CH 3, 4, 5, 6, 7 |  || | |
-|  | 23 Oct | F | [*CH9 content available*](/content/09-content) |  || | |
+|  | 19 Oct | M | [Exam Review](/content/exam1) | | |[<i class="fas fa-laptop-code"></i>](/assignment/05-lab) |
+|  | 21 Oct | W | [Exam Q&A](/content/exam1) |  | || |
+|  | 23 Oct | F | Quiz 2: CH 4, 5, 6, 7 |  || | |
+|  | 23 Oct | F | [*CH8 content available*](/content/08-content) |  || | |
 | ||||  | | |
-| 9|||**Assessing regression validity (CH9)**   | | | |
-|  | 26 Oct | M | [Assessing regression validity](/content/09-content/) | [<i class="fas fa-tv"></i>](https://bb.uvm.edu)|| | [<i class="fas fa-dragon"></i> Abstract](/assignment/data-abstract) |
+
+
+
+| 9|||**Non-linear regressions (CH9)**   | | | |
+|  | 26 Oct | M | [Non-linear regression](/content/08-content) | [<i class="fas fa-tv"></i>](https://bb.uvm.edu)| |[<i class="fas fa-dragon"></i> Abstract](/assignment/data-abstract) |
 |  | 28 Oct | W | [<i class="fas fa-dragon"></i> Paper proposal discussion](/assignment/research-proposal) |  || | |
-|  | 30 Oct | F |[*CH10 content available*](/content/10-content)  | | [<i class="fas fa-pencil-alt"></i>](/assignment/05-ps)| ||
+|  | 30 Oct | F | [*CH9 content available*](/content/09-content) |  || | |
+| ||||  | | |
+
+
+| 10|||**Assessing regression validity (CH9)**   | | | |
+|  | 02 Nov | M | [Assessing regression validity](/content/09-content/) | [<i class="fas fa-tv"></i>](https://bb.uvm.edu)|| | [<i class="fas fa-dragon"></i> Abstract](/assignment/data-abstract) |
+|  | 04 Nov | W | [Lab 6: Data problems](/assignment/06-lab) |  || | |
+|  | 06 Nov | F |[*CH10 content available*](/content/10-content)  | | [<i class="fas fa-pencil-alt"></i>](/assignment/05-ps)| ||
 | ||||  | | | |
-| 10|||**Panel data (CH10)**   | | | |
-|  | 02 Nov | M | [Panel data methods](/content/10-content) | [<i class="fas fa-tv"></i>](https://bb.uvm.edu)|| | |
-|  | 04 Nov | W | [Lab 6: Diff-in-diff and panel data](/assignment/06-lab) |  | ||  |
-|  | 06 Nov | F | [*CH10/11 content available*](/content/10-content)  |  | | | |
-| ||||  | | | ||
-| 11|||**Panel data/binary DV (CH10/11)**   | | | |
-|  | 09 Nov | M | [Panel data/binary DV ](/content/11-content) |  [<i class="fas fa-tv"></i>](https://bb.uvm.edu)||[<i class="fas fa-laptop-code"></i>](/assignment/06-lab) |
-|  | 11 Nov | W | [Lab 7: Data problems](/assignment/07-lab) | || | [<i class="fas fa-dragon"></i> Proposal](/assignment/research-proposal)|
+
+
+| 11|||**Panel data (CH10)**   | | | |
+|  | 09 Nov | M | [Panel data methods](/content/10-content) |  [<i class="fas fa-tv"></i>](https://bb.uvm.edu)||[<i class="fas fa-laptop-code"></i>](/assignment/06-lab) |
+|  | 11 Nov | W | [Lab 7: Diff-in-diff and panel data](/assignment/07-lab) | || | [<i class="fas fa-dragon"></i> Proposal](/assignment/research-proposal)|
 |  | 13 Nov | F |  [*CH13 content available*](/content/12-content) |  |[<i class="fas fa-pencil-alt"></i>](/assignment/06-ps)| | ||
 | ||||  | | | |
 |12 |||**Instrumental variables (CH12)**   | | | |

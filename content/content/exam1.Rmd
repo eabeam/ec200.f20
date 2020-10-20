@@ -160,6 +160,6 @@ Use these for additional practice and to get a sense of the level of questions. 
 <!-- - [Fall 2016 Practice Exam](../PracticeExams/Unit1Quiz_fall2016.pdf) (*Skip 3.h.i, which uses logs*) -->
 <!-- - [Fall 2016 Practice Exam Solutions (COMING)]  -->
 - [Spring 2018 Practice Exam](../PracticeExams/Unit1Quiz_spring2018.pdf)
-- [Spring 2018 Practice Exam Solutions (COMING)] (*I strongly recommend doing the practice exam in its entirety before reviewing the solutions*)
+- [Spring 2018 Practice Exam Solutions](../PracticeExams/Unit1Quiz_spring2018_soln.pdf) (*I strongly recommend doing the practice exam in its entirety before reviewing the solutions*)
 
 

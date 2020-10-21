@@ -146,12 +146,18 @@ Two things that may be useful to you:
 
 `r blogdown::shortcode("slides")`
 
+#### 10/19 Class Recording
 
 <iframe src="https://streaming.uvm.edu/media/embed/zxqotIA/" width="640" height="480" frameborder="0" allowfullscreen></iframe>
 
 ### Practice questions (10/21)
 
--[10-21 practice questions](../practice/unitquiz1-practicequestions.pdf)
+#### 10/21 Class Recording
+
+<iframe src="https://streaming.uvm.edu/media/embed/rh2LNzE/" width="640" height="480" frameborder="0" allowfullscreen></iframe>
+
+- [10-21 practice questions](../practice/unitquiz1-practicequestions.pdf)
+- [10-21 practice solutions](../practice/unitquiz1-practicequestions-soln.pdf)
 
 ## Past exams  {#practice-exam .unnumbered}
 

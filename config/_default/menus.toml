@@ -56,6 +56,9 @@
   name = "Course content"
   weight = 2
 
+  [[content]]
+  name = "Videos"
+  weight = 3
 
   [[resources]]
     name = "Resources"

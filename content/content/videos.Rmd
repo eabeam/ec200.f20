@@ -1,0 +1,49 @@
+
+
+---
+title: Class Recordings
+sitetitle: Class Recordings
+summary: 
+
+date: "2020-10-17"
+
+
+  
+  # Academic page type (do not modify).
+type: docs
+menu:
+  content:
+    parent: Videos
+    weight: 1
+    
+output:
+  blogdown::html_page:
+    toc: true
+
+
+
+---
+
+Earlier recordings are on Teams.
+
+
+## Week 6 
+### 10/07 Class Recording
+
+`r htmltools::HTML("{{< youtube c8zSRqkS_SA >}}")`
+
+## Week 7 
+### 10/12 Class Recording
+
+<iframe src="https://streaming.uvm.edu/media/embed/LOJbHAa/" width="640" height="480" frameborder="0" allowfullscreen></iframe>
+
+## Week 8
+
+### 10/19 Class Recording
+
+<iframe src="https://streaming.uvm.edu/media/embed/zxqotIA/" width="640" height="480" frameborder="0" allowfullscreen></iframe>
+
+
+### 10/21 Class Recording
+
+<iframe src="https://streaming.uvm.edu/media/embed/rh2LNzE/" width="640" height="480" frameborder="0" allowfullscreen></iframe>

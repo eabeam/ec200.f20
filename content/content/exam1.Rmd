@@ -146,6 +146,9 @@ Two things that may be useful to you:
 
 `r blogdown::shortcode("slides")`
 
+
+<iframe src="https://streaming.uvm.edu/media/embed/zxqotIA/" width="640" height="480" frameborder="0" allowfullscreen></iframe>
+
 ### Practice questions (10/21)
 
 -[10-21 practice questions](../practice/unitquiz1-practicequestions.pdf)

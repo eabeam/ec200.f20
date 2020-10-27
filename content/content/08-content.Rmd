@@ -66,6 +66,10 @@ Three types of interactions you should know:
 ### [Video: Nonlinear Reression Functions](https://youtu.be/LAPKh9ib2Tg )
 `r htmltools::HTML("{{< youtube LAPKh9ib2Tg >}}")`
 
-<!-- [Class Video](https://streaming.uvm.edu/media/embed/LOJbHAa/) -->
+### [Class Video](https://streaming.uvm.edu/media/embed/iM9eQzi/) 
 
-<!-- <iframe src="https://streaming.uvm.edu/media/embed/LOJbHAa/" width="640" height="480" frameborder="0" allowfullscreen></iframe> -->
+*You need to use your netid to log in - let me know if you have issues*
+
+
+ <iframe src="https://streaming.uvm.edu/media/embed/iM9eQzi/" width="640" height="480" frameborder="0" allowfullscreen></iframe>
+

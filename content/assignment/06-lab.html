@@ -1,8 +1,8 @@
 ---
-title: "Lab 6: Data problems and LPM"
+title: "Lab 6: Internal validity and LPM"
 linktitle: "Lab 6"
 date: "2020-10-14"
-due_date: "2020-10-19"
+due_date: "2020-11-09"
 due_time: "2:20 PM"
 menu:
   assignment:
@@ -23,6 +23,7 @@ editor_options:
 <li><a href="#materials">Materials</a></li>
 <li><a href="#objectives">Objectives</a></li>
 <li><a href="#key-commands">Key commands</a></li>
+<li><a href="#lpm">Linear Probability Models</a></li>
 <li><a href="#lab-6-worksheet">Lab 6 Worksheet</a>
 <ul>
 <li><a href="#what-do-i-submit">What do I submit?</a></li>
@@ -81,6 +82,15 @@ tasks in Stata:</p>
 </tr>
 </tbody>
 </table>
+</div>
+<div id="lpm" class="section level2 unnumbered">
+<h2>Linear Probability Models</h2>
+<p>What happens when our dependent variable is binary? We can use it anyway! Using OLS with a binary dependent variable is called a <strong>linear probablity model</strong>. There is lots of debate about whether (and when) this is an okay idea, as it can lead to predcitions that are below zero or greater than 1, and it violates homoskedasticity assumptions. We can fix the latter by estimating heteroskedasticity-robust standard errors, and the general consensus <em>seems</em> to be that usually, we’re okay using a LPM. (Though we can do better!)</p>
+<p>What about interpretation? We intrepret coefficients are in <strong>percentage points</strong> (not percents!)</p>
+<p>Consider the following to see:</p>
+<p><span class="math inline">\(Married_i = \beta_0 + \beta_1 age_i + \beta_2 educ_i + u_i\)</span></p>
+<p><span class="math inline">\(\beta_1\)</span> means that a 1-year increase in age is associated with a <span class="math inline">\(\beta_1\)</span> <strong>percentage-point change</strong> in the probability of being married.</p>
+<p>For great slides on this (and a deeper dive), check out <a href="https://nickch-k.github.io/EconometricsSlides/Week_08/Week_08_Limited_Dependent_Variables.html">this resource</a>!</p>
 </div>
 <div id="lab-6-worksheet" class="section level2">
 <h2>Lab 6 Worksheet</h2>

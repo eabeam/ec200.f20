@@ -1,8 +1,8 @@
 ---
-title: "Lab 6: Data problems and LPM"
+title: "Lab 6: Internal validity and LPM"
 linktitle: "Lab 6"
 date: "2020-10-14"
-due_date: "2020-10-19"
+due_date: "2020-11-09"
 due_time: "2:20 PM"
 menu:
   assignment:
@@ -46,6 +46,22 @@ tasks in Stata:
 | `clonevar var1 =  var2` | Make a new variable, `var1` that duplicates `var2` (including labels!)|
 |`_pctile hourwages,per(99)` | Calcualte the 99th percentile of hourly wages, and store as a local variable|
 | `ret list`| Show locally stored variables (handy!)|
+
+## Linear Probability Models {#lpm .unnumbered}
+
+What happens when our dependent variable is binary? We can use it anyway! Using OLS with a binary dependent variable is called a **linear probablity model**. There is lots of debate about whether (and when) this is an okay idea, as it can lead to predcitions that are below zero or greater than 1, and it violates homoskedasticity assumptions. We can fix the latter by estimating heteroskedasticity-robust standard errors, and the general consensus *seems* to be that usually, we're okay using a LPM. (Though we can do better!)
+
+What about interpretation? We intrepret coefficients are in **percentage points** (not percents!)
+
+Consider the following to see:
+
+$Married_i = \beta_0 + \beta_1 age_i + \beta_2 educ_i + u_i$
+
+$\beta_1$ means that a 1-year increase in age is associated with a $\beta_1$ **percentage-point change** in the probability of being married. 
+
+
+For great slides on this (and a deeper dive), check out [this resource](https://nickch-k.github.io/EconometricsSlides/Week_08/Week_08_Limited_Dependent_Variables.html)!
+
 
 ## Lab 6 Worksheet
 ### What do I submit?

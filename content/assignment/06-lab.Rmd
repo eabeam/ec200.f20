@@ -25,7 +25,7 @@ editor_options:
 
 
 Today we're going to keep working with [`cps_2016.dta`](../materials/cps_2016.dta), which
-contains information from the [2016 Current Population Survey](https://cps.ipums.org/cps/). We're going to merge in county-level unemployment rates from the [BLS](https://www.bls.gov/lau/tables.htm)
+contains information from the [2016 Current Population Survey](https://cps.ipums.org/cps/). 
 
 
 By the end of this lab, you should be able to complete the following

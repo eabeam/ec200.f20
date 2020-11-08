@@ -71,9 +71,9 @@ Set up and interpret difference-in-differences estimation. There's a decent disc
 ## Videos
 
 
-### [Video: Assessing Studies](https://youtu.be/zIx8kyPZSC0 )
-`r htmltools::HTML("{{< youtube zIx8kyPZSC0 >}}")`
-https://youtu.be/ 
+### [Video: Data types and difference-in-differences](https://youtu.be/hLEmPwd1R4E )
+`r htmltools::HTML("{{< youtube hLEmPwd1R4E >}}")`
+
 <!-- ### [Class Video](https://streaming.uvm.edu/media/embed/iM9eQzi/)  -->
 
 <!-- *You need to use your netid to log in - let me know if you have issues* -->

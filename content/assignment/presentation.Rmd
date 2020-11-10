@@ -1,0 +1,44 @@
+---
+title: "Research Paper: Presentation"
+linktitle: "06 Presentation"
+date: "2020-08-28"
+due_date: "2020-11-30"
+due_time: "11:59 PM"
+menu:
+  assignment:
+    parent: Research Paper
+    weight: 8
+type: docs
+editor_options: 
+  chunk_output_type: console
+---
+
+Let's share what we've been working on! 
+
+We have the following goals: 
+ - To articulate your research design, methods, and results 
+ - To learn about what your classmates have been working on 
+ - To gain insights about ways to improve your paper and research design based on direct feedback and watching your classmates' presentations 
+
+## Overview 
+ - On your assigned day, you'll deliver a 8-minute presentation. 
+ - One presentation per paper - if you are working with a partner, it should be one set of slides, with both members contributing
+ 
+Here is an example: [Example Presentation!](../materials/example-f20.pptx)
+
+
+## [Presentation Rubric](../materials/Presentation_Rubric_v2.pdf)
+
+Download the presentation rubric [here](../materials/Presentation_Rubric_v2.pdf)
+
+| Total: 48 marks                 | 4 = Excellent                                                                         | 3 =   Satisfactory                                                                                           | 2 = Marginal                                                             | 1 =   Unacceptable                                                                            |
+|---------------------------------|---------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| Content (32 marks)              |                                                                                       |                                                                                                              |                                                                          |                                                                                               |
+|                                 |                                                                                       |                                                                                                              |                                                                          |                                                                                               |
+| Clarity/Accessibility (8 point) | Prepared   content is easily understandable and accessible                            | Prepared   content is somewhat unclear, key details/explanations omitted                                     | Prepared   content difficult to follow without prior knowledge           | Prepared   content difficult to understand                                                    |
+| Understanding (16 marks)        | Content   reflects understanding of main points of paper                              | Content   reflects understanding of some main points of paper, other points missed or   not quite understood | Content   has major errors or oversights of main points                  | Content   lacks main points of paper, or reflects serious misunderstanding of   ideas/methods |
+| Organization (8 marks)          | Presentation   organized in logical order, easy to follow                             | Presentation   organized, but some portions out of place                                                     | Presentation   jumps from topics, difficult to follow                    | Poor   organization makes it difficult to follow presentation                                 |
+| Presentation   Style (16 marks) |                                                                                       |                                                                                                              |                                                                          |                                                                                               |
+|                                 |                                                                                       |                                                                                                              |                                                                          |                                                                                               |
+| Speaking (8 marks)              | Presenters   speak clearly at a good pace, easy to understand, keep listeners engaged | Presenters   speak clearly, but a bit dry, too fast, or too slow                                             | Presenters   sometimes lose listeners because of poor pacing or delivery | Speaking   style severely impedes understanding                                               |
+| Visuals/handouts (8 marks)      | Prepared   visuals/handouts reflect content, visually appealing, easy to interpret    | Prepared   visuals/handouts wordy or sparse, have minor errors                                               | Prepared   visuals/handouts are limited, add little to presentation      | No   prepared visuals/handouts, or quality is very poor                                       |

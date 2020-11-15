@@ -1,0 +1,299 @@
+2% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Problem set 6},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+
+\title{Problem set 6}
+\author{}
+\date{Due 2020-11-20}
+
+\begin{document}
+\maketitle
+
+\hypertarget{welcome}{%
+\subsection{Welcome}\label{welcome}}
+
+Our final problem set, covering chapters 10 and 12
+
+See the exercises below
+
+\hypertarget{what-do-i-submit}{%
+\subsection{What do I submit?}\label{what-do-i-submit}}
+
+\begin{itemize}
+\tightlist
+\item
+  Your written up answers to exercise questions. If you work on a piece
+  of paper, please scan using some sort of phone software (like
+  Microsoft Lens or Adobe Scan) rather than just taking a picture.
+\item
+  A do-file that runs your Stata analysis.
+\item
+  A log file that includes the output from running your do-file.
+\end{itemize}
+
+\hypertarget{exercises}{%
+\subsection{Exercises}\label{exercises}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  In 1985, neither Florida nor Georgia had laws banning open alcohol
+  containers in vehicle passenger compartments. By 1990, Florida had
+  passed such a law, but Georgia had not.
+
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \item
+    Suppose you collect random samples of the driving-age population in
+    both states, for 1985 and 1990. Let \(arrest\) be a binary variable
+    equal to one if a person was arrested for drunk driving during the
+    year. Without controlling for any other factors, write down a linear
+    probability model that allows you to test whether the open container
+    law reduced the probability of being arrested for drunk driving.
+    Which coefficient measures the effect of the law?
+  \item
+    Why might you want to control for other factors in the model? What
+    might some of these factors be?
+  \item
+    Now, suppose that you can only collect data for 1985 and for 1990 at
+    the county level for the two states. The dependent variable would be
+    the fraction of licensed drivers arrested for drunk driving during
+    the year. How does this data structure differ from the
+    individual-level data described in part (a)? What econometric method
+    would you use?
+  \end{enumerate}
+\item
+  For this exercise, use
+  \href{../materials/JTRAIN.dta}{\texttt{JTRAIN.dta}} to determine the
+  effect of a job training grant on hours of job training per employee.
+  The basic model for the three years is the following: \[\begin{split} 
+  hrsemp_{it} &= \beta_0 + \delta_1 d88_t + \delta_2 d89_t +\\
+  &  \beta_1 grant_{it} + \beta_2 grant_{i,t-1} + \beta_3 log(employ_{it}) + a_i + u_{it}
+  \end{split}\]
+
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \item
+    Estimate the equation using first differencing. How many firms are
+    used in the estimation? How many total observations would be used if
+    each firm had data on all variables (in particular, \(hrsemp\)) for
+    all three time periods?
+  \item
+    Interpret the coefficient on \(grant\), and comment on its
+    significance.
+  \item
+    Is it surprising that \(grant_{-1}\) is insignificant? Explain.
+  \item
+    Do larger firms train their employees more or less, on average? How
+    big are the differences in training?
+  \end{enumerate}
+\item
+  Use \href{../materials/CRIME4.dta}{\texttt{CRIME4.dta}} for this
+  exercise, and see example 13.9 in this poor-quality scanned
+  \href{../materials/example-13.9.pdf}{upload}.
+
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \item
+    Replicate the results in Example 13.9.
+  \item
+    Re-estimate the unobserved effects model for crime in Example 13.9,
+    but use fixed effects rather than differencing. Are there any
+    notable sign or magnitude changes in the coefficients? What about
+    statistical significance?
+  \item
+    Add the logs of each wage variable in the data set and estimate the
+    model by fixed effects. How does including these variables affect
+    the coefficient on the criminal justic variables in part (b)?
+  \item
+    Do the wage variables in part (c) have the expected sign? Are they
+    jointly significant?
+  \end{enumerate}
+\item
+  \textbf{SW-12.6} In an instrumental variable regression model with one
+  reressor, \(X_i\), and one instrument, \(Z_i\), the regression of
+  \(X_i\) onto \(Z_i\) has \(R^2 = 0.05\) and \(n = 100\). Is \(Z_i\) a
+  strong instrument?\footnote{\emph{Hint:} See equation 7.14 in your
+    textbook.} Would your answer change if \(R^2 = 0.05\) and
+  \(n = 500\)?
+\end{enumerate}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{4}
+\tightlist
+\item
+  \textbf{SW-12.9} A researcher is interested in the effect of military
+  service on human capital. She collects data from a random sample of
+  4000 workers aged 40 and runs the OLS regression
+  \(Y_i = \beta_0 + \beta_1X_i + u_i\), where \(Y_i\) is a worker's
+  annual earnings and \(X_i\) is a binary variable equal to 1 if the
+  person served in the military and is equal to 0 otherwise.
+
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    Explain why the OLS estimates are likely to be unreliable.
+    (\emph{Hint:} Which variables are omitted from the reression? Are
+    they correlated with military service?)
+  \item
+    During the Vietnam war there was a draft in which priority for the
+    draft was determined by a national lottery. The days of the year
+    were randomly re-ordered 1 through 365. (Those whose birthdays were
+    ordered first were drafted before those with birthdates ordered
+    second, and so forth.) Explain how the lottery might be used as an
+    instrument to estimate the effect of military service on earnings.
+    For more about this issue, see Joshua D Angrish's paper ``Lifetime
+    Earnings and the Vietnam Era Draft Lottery: Evidence from Social
+    Security Administration Records,'' \emph{American Economic Review},
+    June 1990: 313--336.
+  \end{enumerate}
+\end{enumerate}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{5}
+\item
+  \textbf{SW-E12.2} Does viewing a violent movie lead to violent
+  behavior? If so the incidence of violent crimes, such as assault,
+  should rise following the release of a violent movie that attracts
+  many viewers. Alternatively, movie viewing may substitute for other
+  activities, such as alcohol consumption, that lead to violent
+  behavior, so that assaults should fall more when more viewers are
+  attracted to the cinema. Use the data file
+  \href{../Movies.dta}{\texttt{Movies.dta}}, which contains data on the
+  number of assaults and movie attendance for 516 weekends from 1995
+  through 2004\footnote{These are aggregated versions of data provided
+    by Gordon Dahl and Stefano DellaVigna, used in their paper,
+    \href{https://eml.berkeley.edu//~sdellavi/wp/moviescrime08-08-01Forthc.pdf}{``Does
+    Movie Volence Increase Violent Crime?''}}. A detailed description is
+  given \href{../materials/movies_description.pdf}{here}. The data set
+  includes weekend US attendance for strongly violent movies (such as
+  \emph{Hannibal}), mildly violent movies (such as \emph{Spiderman}),
+  and non-violent movies (such as \emph{Finding Nemo}). The data also
+  includes the count of the number of assaults for the same weekend in a
+  subset of counties in the United States. Finally, the data set
+  includes indicators for year, month, whether the weekend is a holiday,
+  and various measures of the weather.
+
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \item
+    Regress the logarithm of the number of assaults
+    (\(ln\_assaults= ln(assaults)\)) on the year and month indicators.
+    Is there evidence of seasonality in assaults? That is, do there tend
+    to be more assaults in some months than others? Explain.
+  \item
+    Now, regress total movie attendance
+    (\(attend = attend\_v + attend\_m + attend\_n\)) on the year and
+    month indicators. Is there evidence of seasonality in movie
+    attendance? Explain.
+  \item
+    Regress \(ln\_assaults\) on \(attend\_v\), \(attend\_m\),
+    \(attend\_n\), the year and month indicators, and the weather and
+    holiday control variables available in the data set.
+
+    \begin{enumerate}
+    \def\labelenumiii{\arabic{enumiii}.}
+    \tightlist
+    \item
+      Based on the regression, does viewing a strongly violent movie
+      increase or decrease assaults? By how much? Is the estimated
+      affect statistically significant?
+    \item
+      Does attendance at strongly violent movies affect us all
+      differently than attendance at moderately violent movies?
+      Differently than attendance at non-violent movies?
+    \item
+      A strongly violent blockbuster movie is released and the weekends
+      attendance is at strongly violent movies increases by 6 million;
+      meanwhile, attendance falls by 2 million for moderately violent
+      movies and by 1 million for non-violent movies. What is the
+      predicted effect on assault? Construct a 95\% confidence interval
+      for the change in assault.\footnote{\emph{Hint:} Review section
+        7.3 and material surrounding equations 8.7 and 8.8}
+    \end{enumerate}
+  \item
+    It is difficult to control for all the variables that affect
+    assaults and that might be correlated with movie attendance. For
+    example, the effect of the weather on assaults and movie attendance
+    is only crudely approximated by the weather variables in the data
+    set. However, the data set does include a set of instruments
+    \(pr\_attend\_v\), \(pr\_attend\_m\), and \(pr\_attend\_n\), that
+    are correlated with attendance but are (arguably) uncorrelated with
+    weekend-specific factors such as the weather that affects both
+    assaults add movie attendance. These instruments use historical
+    attendance patterns, not information on a particular weekend, to
+    predict a film's attendance in a given weekend. For example, if a
+    film's attendance is high in the second week of its release, then
+    this could be used to predict that attendance was also high in the
+    first week of its release. The details of the construction of these
+    instruments are available on in the
+    \href{https://eml.berkeley.edu//~sdellavi/wp/moviescrime08-08-01Forthc.pdf}{Dahl
+    and DellaVina paper}. Run the regression from part c, including
+    year, month, holiday, and weather controls, but now using the
+    instruments for attendance. Use this regression to now re-answer the
+    questions from part c: c(1)- c(3).
+  \item
+    The intuition underlined the instruments in part 4 is that
+    attendance in a given week is correlated with attendance and
+    surrounding weeks. For each movie category, the data set includes
+    attendance in surrounding weeks. Run the regression using the
+    instruments \(attend\_v\_f\), \(attend\_m\_f\), \(attend\_n\_f\),
+    \(attend\_v\_b\), \(attend\_m\_b\), and \(attend\_n\_b\) instead of
+    the instruments used in part d, then use this regression to answer
+    part c: c(1)- c(3).
+  \item
+    Based on your analysis, what do you conclude about the effects of
+    violent movies on short-run violent behavior?
+  \end{enumerate}
+\end{enumerate}
+
+\end{document}

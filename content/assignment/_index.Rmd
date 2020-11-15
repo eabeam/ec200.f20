@@ -27,7 +27,7 @@ sure you reasonably attempted the problems, and you'll score zero, one, or two p
 
 We will have labs about once a week, as noted in the [class schedule](/content/schedule). Labs will give you a chance to apply your econometrics knowledge and build your Stata skills. We will review the data and key commands together in class, and then break to work through the problem sets. Bring any questions to our Friday Q \& A sessions. I strongly encourage you to work
 with others, but you need to submit your labs individually
-
+in
 Labs also will be graded on completion. I will check to make
 sure you reasonably attempted the problems, and you'll score zero, one, or two points. For full credit, you *must* include a log-file and do-file. 
 

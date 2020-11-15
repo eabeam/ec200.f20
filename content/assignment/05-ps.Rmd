@@ -43,7 +43,7 @@ $log(price) = \beta_0 = \beta_1log(nox) + \beta_2rooms + u$
   $\widehat{log(price)} = 11.71 - 1.043 log(nox)$, $n = 506$, $R^2 = 0.264$
   $\widehat{log(price)} = 9.23 - 0.718 log(nox) + 0.306 rooms$, $n = 506$, $R^2 = 0.514$
   
-  Is the relationship between the simple and multiple regression estimates of the elasticity of $price$ with respect to $nox$ what you would have predicted, given your answer in part (ii)? Does this mean that 2.718 is definitely closer to the true elasticity than 21.043?
+  Is the relationship between the simple and multiple regression estimates of the elasticity of $price$ with respect to $nox$ what you would have predicted, given your answer in part (ii)? Does this mean that 0.718 is definitely closer to the true elasticity than 1.043?
 
 
 
@@ -64,7 +64,6 @@ $log(price) = \beta_0 = \beta_1log(nox) + \beta_2rooms + u$
     ii. How would you test whether the researcher’s conjecture was better than the linear specification in column (7) of Table 8.3?
   b. A researcher suspects that the effect of income on test scores is different in districts with small classes than in districts with large classes. 
     i. Describe a nonlinear specification that can be used to model this form of nonlinearity. 
-    ii. How would you test whether the researcher’s conjecture was better than the linear specification in column (7) of Table 8.3?
 
 
 <!-- <!-- Stock and Watson 9.2 --> 

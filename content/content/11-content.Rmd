@@ -78,6 +78,11 @@ Getting your head around IV can be tricky! Here are a few resources if you want 
 
 ### [Video: Introduction to IV](https://youtu.be/MeHHe303JuI )
 `r htmltools::HTML("{{< youtube MeHHe303JuI >}}")`
+
+### Class Video (11/16)
+<iframe src="https://streaming.uvm.edu/media/embed/uYSht54/" width="640" height="480" frameborder="0" allowfullscreen></iframe>
+
+
 <!-- ### [Class Video](https://streaming.uvm.edu/media/embed/iM9eQzi/)  -->
 
 <!-- *You need to use your netid to log in - let me know if you have issues* -->

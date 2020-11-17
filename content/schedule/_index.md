@@ -80,17 +80,17 @@ What's the plan?
 |12 |||**Instrumental variables (CH12)**   | | | |
 |  | 16 Nov | M | [Instrumental variables](/content/12-content) | | |[<i class="fas fa-laptop-code"></i>](/assignment/07-lab) |
 |  | 18 Nov | W | [Lab 8: Instrumental variables](/assignment/08-lab) |   || | [<i class="fas fa-dragon"></i> Peer review](/assignment/peer-review) |
-|  | 20 Nov | F | Exam review  | [<i class="fas fa-tv"></i>](https://bb.uvm.edu) (CH12) |[<i class="fas fa-pencil-alt"></i>](/assignment/06-ps)| | |
+|  | 20 Nov | F | No drop-in | [<i class="fas fa-tv"></i>](https://bb.uvm.edu) (CH12) |[<i class="fas fa-pencil-alt"></i>](/assignment/06-ps)| | |
 | ||||  | | |
 | 13||||  | | |||
-|  | 23 Nov | M | Exam 2: CH 8, 9, 10, 13  |  | |[<i class="fas fa-laptop-code"></i>](/assignment/08-lab) |
+|  | 23 Nov | M | Exam review |  | |[<i class="fas fa-laptop-code"></i>](/assignment/08-lab) |
 |  | 25 Nov | W | Thanksgiving break |  | || |
 |  | 27 Nov | F | Thanksgiving break |  | || |
 | ||||  | | | |
 | 14|||**Paper presentations**   | | | |
-|  | 30 Nov | M | Paper presentations | || |[<i class="fas fa-dragon"></i> Optional Rough draft](/assignment/rough-draft)|
-|  | 02 Dec | W | Paper presentations |  | || |
-|  | 04 Dec | F | Paper presentations  |  || ||
+|  | 30 Nov | M | Exam Q & A | || |[<i class="fas fa-dragon"></i> Optional Rough draft](/assignment/rough-draft)|
+|  | 02 Dec | W | **Exam 2: CH 8, 9, 10, 12**  |  | || |
+|  | 04 Dec | F | No meeting, available for [consultations](https://calendly.com/emily-a-beam/15min)  |  || ||
 | ||||  | | |
 | |||**<i class="fas fa-dragon"></i> Research paper due [Tuesday, 08 December](/assignment/final-submission) <i class="fas fa-dragon"></i>**   | | | |
 

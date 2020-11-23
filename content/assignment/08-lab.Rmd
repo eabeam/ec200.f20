@@ -215,3 +215,9 @@ a private school, and `selectyrs` is the number of years a student was
 References: Rouse, Cecilia Elena (1998), "Private School Vouchers and
 Student Achievement: An Evaluation of the Milwaukee Parental Choice
 Program," *The Quarterly Journal of Economics* 113(2), 553-602.
+
+## Class Recording 
+
+
+<iframe src="https://streaming.uvm.edu/media/embed/85lXjkW/" width="640" height="480" frameborder="0" allowfullscreen></iframe>
+

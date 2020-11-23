@@ -9,7 +9,6 @@ menu:
     parent: Research Paper
     weight: 30
 type: docs
-
 editor_options: 
   chunk_output_type: console
 output:
@@ -21,12 +20,13 @@ output:
 
 <div id="TOC">
 <ul>
-<li><a href="#research-paper-checklist">Research Paper Checklist</a>
+<li><a href="#research-paper---final-submission">Research Paper - Final Submission</a></li>
+<li><a href="#what-should-i-submit">What should I submit?</a></li>
+<li><a href="#elements-of-your-research-paper">Elements of your research paper</a>
 <ul>
 <li><a href="#generalstyle">General/Style</a></li>
-</ul></li>
-<li><a href="#abstract-title">Abstract &amp; Title</a>
-<ul>
+<li><a href="#abstract-title">Abstract &amp; Title</a></li>
+<li><a href="#introduction">Introduction</a></li>
 <li><a href="#motivation-or-background-or-literature-review">Motivation or Background or Literature Review**</a></li>
 <li><a href="#methodologydata">Methodology/Data**</a></li>
 <li><a href="#results">Results**</a></li>
@@ -39,12 +39,26 @@ output:
 </ul>
 </div>
 
-<div id="research-paper-checklist" class="section level2">
-<h2>Research Paper Checklist</h2>
-<p><em>I’ve put together this set of guidelines to help you make sure your
-research paper includes all the important elements. While a good paper
+<div id="research-paper---final-submission" class="section level2">
+<h2>Research Paper - Final Submission</h2>
+<p>Research papers are fairly formulaic, and that’s a good thing - it helps readers know where to look for information, depending on what they want to get out of it.</p>
+</div>
+<div id="what-should-i-submit" class="section level2">
+<h2>What should I submit?</h2>
+<p>Your paper is due at <strong>11:59pm December 08</strong>. <em>I cannot accept extensions</em>, as there are external grading deadlines I need to meet.</p>
+<p>You should submit the following:</p>
+<ul>
+<li>Final paper in pdf or docx format</li>
+<li>Stata do-file with all analysis you conducted</li>
+<li>Stata log file with results for analysis conducted in your do-file.</li>
+</ul>
+<p>I will grade your papers following the rubric. If you would like me to share comments, you must <em>opt-in</em> by filling out the <a href="https://forms.gle/kxGcNvFzzGtduGQ99">feedback survey</a>. If you do not fill it out, you will not receive feedback!</p>
+</div>
+<div id="elements-of-your-research-paper" class="section level2">
+<h2>Elements of your research paper</h2>
+<p>A reasonable approach is to pull up an academic paper you’re citing that is in the economics literature and see how it’s structured. However, here is more general guide. While a good paper
 will meet these criteria, please note that, this is not a grading
-rubric! See Blackboard for the rubric.</em></p>
+rubric!</p>
 <div id="generalstyle" class="section level3">
 <h3>General/Style</h3>
 <ul>
@@ -70,14 +84,20 @@ motivation only</p></li>
 </ul></li>
 </ul>
 </div>
-</div>
-<div id="abstract-title" class="section level2">
-<h2>Abstract &amp; Title</h2>
+<div id="abstract-title" class="section level3">
+<h3>Abstract &amp; Title</h3>
+<p>You’ll need a title <em>and an abstract</em></p>
 <ul>
 <li><p>Descriptive title</p></li>
 <li><p>Abstract that summarizes the paper and findings in 200 words or less</p></li>
 </ul>
-<p><strong>Introduction</strong></p>
+</div>
+<div id="introduction" class="section level3">
+<h3>Introduction</h3>
+<p>In an economics paper, and introduction stands alone! That is, a tired person could read the introduction and understand what you did, what you found, and why it matters. Our papers are not mystery novels - there’s no need for a plot twist on page 8!</p>
+<p>I’m a big fan of the <a href="http://blogs.ubc.ca/khead/research/research-advice/formula">introduction formula</a>, which is written for folks writing a longer academic paper, but the principles are still solid.</p>
+<div id="guidelines-and-structure" class="section level4">
+<h4>Guidelines and structure</h4>
 <ul>
 <li><p>Introduction reads like an academic article. Motivates, describes
 what you do and what you find. (Almost like a mini-paper!)</p>
@@ -92,6 +112,8 @@ your questions, and/or defines clear hypotheses that you test</p></li>
 <li><p>Describes what you find</p></li>
 <li><p>Describe how it contributes to knowledge</p></li>
 </ul>
+</div>
+</div>
 <div id="motivation-or-background-or-literature-review" class="section level3">
 <h3>Motivation or Background or Literature Review**</h3>
 <ul>
@@ -124,13 +146,19 @@ to their contribution (as relates to your research question)</p></li>
 create it, cite it</p></li>
 <li><p>Population model written out</p>
 <ul>
-<li><p>If you’re using Word, use equation editor. Make it look nice.
-Don’t forget the error term</p></li>
-<li><p>Use proper equation notation (betas, u, etc)</p></li>
-<li><p>Use appropriate subscripts (<em>i, t, y, etc)</em></p></li>
-<li><p>All relevant variables explained/defined</p></li>
-<li><p>Use “real names” to describe variables when possible (ie use
-<em>female</em> for women, not <em>w1</em>)</p></li>
+<li>If you’re using Word, use equation editor. Make it look nice.</li>
+<li>Don’t forget the error term!</li>
+<li>Use proper equation notation (<span class="math inline">\(\beta\)</span>, <span class="math inline">\(u\)</span>, etc)</li>
+<li>Use appropriate subscripts (<em>$$i, <span class="math inline">\(t\)</span>, <span class="math inline">\(y\)</span>, etc)</em></li>
+<li>All relevant variables explained/defined</li>
+<li>Use “real names” to describe variables when possible (ie use
+<span class="math inline">\(female\)</span> for women, not <span class="math inline">\(w1\)</span>)</li>
+<li>Make sure your variables are written correctly - an equation like <span class="math inline">\(wage = \alpha_0 + \alpha_1 race\)</span> doesn’t make sense - race isn’t continuous!</li>
+<li>If you are using a lot of categorical variables and find it awkward to write them out, you can simplify:
+<ul>
+<li>Showing that you have state fixed effects: $… + f_s + $ and the in the text, “where <span class="math inline">\(f_s\)</span> is a vector of state fixed effects”</li>
+<li>Including a set of occupational dummy variables <span class="math inline">\(\sum^K_{k=1}\delta_kD_k\)</span>, “where <span class="math inline">\(D_k\)</span> is a dummy variable for occupation <span class="math inline">\(k\)</span>, from <span class="math inline">\(k \in [1,K]\)</span>” (or something in that general spirit)</li>
+</ul></li>
 </ul></li>
 <li><p>Describe your methodology. Are you estimating a model using OLS? If
 so, say so.</p></li>

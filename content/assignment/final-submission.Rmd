@@ -9,7 +9,6 @@ menu:
     parent: Research Paper
     weight: 30
 type: docs
-
 editor_options: 
   chunk_output_type: console
 output:
@@ -17,12 +16,32 @@ output:
     toc: true
 ---
 
-## Research Paper Checklist
+## Research Paper - Final Submission 
 
-*I've put together this set of guidelines to help you make sure your
-research paper includes all the important elements. While a good paper
+
+Research papers are fairly formulaic, and that's a good thing - it helps readers know where to look for information, depending on what they want to get out of it. 
+
+
+## What should I submit? 
+
+Your paper is due at **11:59pm December 08**. *I cannot accept extensions*, as there are external grading deadlines I need to meet. 
+
+You should submit the following: 
+
+ - Final paper in pdf or docx format 
+ - Stata do-file with all analysis you conducted 
+ - Stata log file with results for analysis conducted in your do-file. 
+ 
+I will grade your papers following the rubric. If you would like me to share comments, you must *opt-in* by filling out the [feedback survey](https://forms.gle/kxGcNvFzzGtduGQ99). If you do not fill it out, you will not receive feedback! 
+
+
+## Elements of your research paper 
+
+A reasonable approach is to pull up an academic paper you're citing that is in the economics literature and see how it's structured. However, here is more general guide. While a good paper
 will meet these criteria, please note that, this is not a grading
-rubric! See Blackboard for the rubric.*
+rubric!
+
+
 
 ### General/Style
 
@@ -52,13 +71,25 @@ rubric! See Blackboard for the rubric.*
 
     -   Clear, labeled sections
 
-## Abstract & Title
+
+
+### Abstract & Title
+
+You'll need a title *and an abstract*
 
 -   Descriptive title
 
 -   Abstract that summarizes the paper and findings in 200 words or less
 
-**Introduction**
+
+### Introduction 
+
+In an economics paper, and introduction stands alone! That is, a tired person could read the introduction and understand what you did, what you found, and why it matters. Our papers are not mystery novels - there's no need for a plot twist on page 8! 
+
+I'm a big fan of the [introduction formula](http://blogs.ubc.ca/khead/research/research-advice/formula), which is written for folks writing a longer academic paper, but the principles are still solid. 
+
+
+#### Guidelines and structure
 
 -   Introduction reads like an academic article. Motivates, describes
     what you do and what you find. (Almost like a mini-paper!)
@@ -77,6 +108,9 @@ rubric! See Blackboard for the rubric.*
 -   Describes what you find
 
 -   Describe how it contributes to knowledge
+
+
+
 
 ### Motivation or Background or Literature Review**
 
@@ -112,18 +146,18 @@ rubric! See Blackboard for the rubric.*
 
 -   Population model written out
 
-    -   If you're using Word, use equation editor. Make it look nice.
-        Don't forget the error term
-
-    -   Use proper equation notation (betas, u, etc)
-
-    -   Use appropriate subscripts (*i, t, y, etc)*
-
-    -   All relevant variables explained/defined
-
-    -   Use "real names" to describe variables when possible (ie use
-        *female* for women, not *w1*)
-
+    - If you're using Word, use equation editor. Make it look nice.
+    - Don't forget the error term!
+    - Use proper equation notation ($\beta$, $u$, etc)
+    - Use appropriate subscripts (*$$i, $t$, $y$, etc)*
+    - All relevant variables explained/defined
+    - Use "real names" to describe variables when possible (ie use
+        $female$ for women, not $w1$)
+    - Make sure your variables are written correctly - an equation like $wage = \alpha_0 + \alpha_1 race$ doesn't make sense - race isn't continuous! 
+    - If you are using a lot of categorical variables and find it awkward to write them out, you can simplify: 
+      - Showing that you have state fixed effects: $... + f_s + $ and the in the text, "where $f_s$ is a vector of state fixed effects"
+      - Including a set of occupational dummy variables $\sum^K_{k=1}\delta_kD_k$, "where $D_k$ is a dummy variable for occupation $k$, from $k \in [1,K]$" (or something in that general spirit)
+  
 -   Describe your methodology. Are you estimating a model using OLS? If
     so, say so.
 

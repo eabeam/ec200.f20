@@ -2,7 +2,7 @@
 title: "Research Paper: Presentation"
 linktitle: "06 Presentation"
 date: "2020-08-28"
-due_date: "2020-11-30"
+due_date: "2020-12-04"
 due_time: "11:59 PM"
 menu:
   assignment:
@@ -13,18 +13,36 @@ editor_options:
   chunk_output_type: console
 ---
 
-Let's share what we've been working on! 
-
-We have the following goals: 
- - To articulate your research design, methods, and results 
- - To learn about what your classmates have been working on 
- - To gain insights about ways to improve your paper and research design based on direct feedback and watching your classmates' presentations 
+**Because timing is so tight, I'm no longer requiring you to view your classmate's presentations - but I will circulate the links and encourage you to do so!**
 
 ## Overview 
- - On your assigned day, you'll deliver a 8-minute presentation. 
- - One presentation per paper - if you are working with a partner, it should be one set of slides, with both members contributing
- 
-Here is an example: [Example Presentation!](../materials/example-f20.pptx)
+
+You'll prepare and deliver a 6-8 minute presentation of your paper, with accompanying slides. This will be one presentation per paper. If you are working with a partner, it should be one set of slides, with both members contributing.
+
+Here is an example slide deck: [Example Presentation!](../materials/example-f20.pptx)
+
+## Guidelines for presentation
+
+ - You can record yourself giving your presentation in any way you see fit. The lowest-effort way to do this is to setting up a Microsoft Teams/Zoom meeting with yourself, share your screen, and recording that. 
+ - You can leave your camera off or on, whichever makes you more comfortable. 
+ - You should cover the main elements of your paper: 
+  1. Introduction 
+  2. Research questions 
+  3. Background/motivation/related literature 
+  4. Data
+  5. Empirical strategy
+  6. Results 
+  7. Limitations/discussion 
+  8. Conclusion
+  
+- It doesn't need to be scripted, but you should have practiced, such that your presentation flows smoothly. 
+- Try to avoid reading directly off the slides.
+- It should be between 6 and 8 minutes.
+
+- However you record it, you should upload it to a streaming site like [UVM Streaming](https://streaming.uvm.edu/media/), YouTube, or Microsoft Stream. 
+  - If you use the MS Teams approach, your recording will be automatically uploaded to Microsoft Stream. You may need to double check the settings to make sure I have permission to watch it. 
+
+ **On Blackboard:** Submit a copy of your slides and a link to the video
 
 
 ## [Presentation Rubric](../materials/Presentation_Rubric_v2.pdf)

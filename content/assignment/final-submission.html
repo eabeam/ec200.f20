@@ -1,6 +1,6 @@
 ---
 title: "Research Paper: Final Submission"
-linktitle: "07 Final"
+linktitle: "08 Final"
 date: "2020-06-22"
 due_date: "2020-12-08"
 due_time: "11:59 PM"
@@ -27,15 +27,15 @@ output:
 <li><a href="#generalstyle">General/Style</a></li>
 <li><a href="#abstract-title">Abstract &amp; Title</a></li>
 <li><a href="#introduction">Introduction</a></li>
-<li><a href="#motivation-or-background-or-literature-review">Motivation or Background or Literature Review**</a></li>
-<li><a href="#methodologydata">Methodology/Data**</a></li>
-<li><a href="#results">Results**</a></li>
-<li><a href="#limitations-or-discussion">Limitations or Discussion**</a></li>
-<li><a href="#conclusion">Conclusion**</a></li>
-<li><a href="#tables-and-figures">Tables and Figures**</a></li>
-<li><a href="#references">References**</a></li>
-<li><a href="#working-with-data">Working with data**</a></li>
+<li><a href="#motivation-or-background-or-literature-review">Motivation or Background or Literature Review</a></li>
+<li><a href="#methodologydata">Methodology/Data</a></li>
+<li><a href="#results">Results</a></li>
+<li><a href="#limitations-or-discussion">Limitations or Discussion</a></li>
+<li><a href="#conclusion">Conclusion</a></li>
+<li><a href="#tables-and-figures">Tables and Figures</a></li>
+<li><a href="#references">References</a></li>
 </ul></li>
+<li><a href="#rubric">Rubric</a></li>
 </ul>
 </div>
 
@@ -115,7 +115,7 @@ your questions, and/or defines clear hypotheses that you test</p></li>
 </div>
 </div>
 <div id="motivation-or-background-or-literature-review" class="section level3">
-<h3>Motivation or Background or Literature Review**</h3>
+<h3>Motivation or Background or Literature Review</h3>
 <ul>
 <li><p>What you include here depends on topic. Sometimes the reader needs
 to know how your question links to economic theory. Sometimes it’s
@@ -140,26 +140,14 @@ to their contribution (as relates to your research question)</p></li>
 </ul>
 </div>
 <div id="methodologydata" class="section level3">
-<h3>Methodology/Data**</h3>
+<h3>Methodology/Data</h3>
 <ul>
 <li><p>Describe the data you use, where did it come from? If you didn’t
 create it, cite it</p></li>
-<li><p>Population model written out</p>
-<ul>
-<li>If you’re using Word, use equation editor. Make it look nice.</li>
-<li>Don’t forget the error term!</li>
-<li>Use proper equation notation (<span class="math inline">\(\beta\)</span>, <span class="math inline">\(u\)</span>, etc)</li>
-<li>Use appropriate subscripts (<em>$$i, <span class="math inline">\(t\)</span>, <span class="math inline">\(y\)</span>, etc)</em></li>
-<li>All relevant variables explained/defined</li>
-<li>Use “real names” to describe variables when possible (ie use
-<span class="math inline">\(female\)</span> for women, not <span class="math inline">\(w1\)</span>)</li>
-<li>Make sure your variables are written correctly - an equation like <span class="math inline">\(wage = \alpha_0 + \alpha_1 race\)</span> doesn’t make sense - race isn’t continuous!</li>
-<li>If you are using a lot of categorical variables and find it awkward to write them out, you can simplify:
-<ul>
-<li>Showing that you have state fixed effects: $… + f_s + $ and the in the text, “where <span class="math inline">\(f_s\)</span> is a vector of state fixed effects”</li>
-<li>Including a set of occupational dummy variables <span class="math inline">\(\sum^K_{k=1}\delta_kD_k\)</span>, “where <span class="math inline">\(D_k\)</span> is a dummy variable for occupation <span class="math inline">\(k\)</span>, from <span class="math inline">\(k \in [1,K]\)</span>” (or something in that general spirit)</li>
-</ul></li>
-</ul></li>
+<li><p>What is the unit of observation? Is it people, households, states,
+etc? Make sure the unit is appropriate to your question</p></li>
+<li><p>If you’re working with individual-level data, what is the age range you want in your sample? What years of data do you need?</p></li>
+<li><p>If dealing with labor force variables, do you want all people of working age, all those who are in the labor force, or all who are employed?</p></li>
 <li><p>Describe your methodology. Are you estimating a model using OLS? If
 so, say so.</p></li>
 <li><p>Clarify whether we are looking at causal estimates or something
@@ -167,22 +155,43 @@ else. What are the estimated parameters of interest. What do they
 mean?</p></li>
 <li><p>Correct standard errors: robust? Clustered? Something else?</p></li>
 </ul>
+<div id="population-model" class="section level4">
+<h4>Population model</h4>
+<p>Write out your population model!</p>
+<ul>
+<li><p>If you’re using Word, use equation editor. Make it look nice.</p></li>
+<li><p>Don’t forget the error term!</p></li>
+<li><p>Use proper equation notation (<span class="math inline">\(\beta\)</span>, <span class="math inline">\(u\)</span>, etc)</p></li>
+<li><p>Use appropriate subscripts (<span class="math inline">\(i\)</span>, <span class="math inline">\(t\)</span>, <span class="math inline">\(y\)</span>, etc)</p></li>
+<li><p>All relevant variables explained/defined</p></li>
+<li><p>Use “real names” to describe variables when possible (ie use <span class="math inline">\(female\)</span> for women, not <span class="math inline">\(w1\)</span>)</p></li>
+<li><p>Make sure your variables are written correctly - an equation like <span class="math inline">\(wage = \alpha_0 + \alpha_1 race\)</span> doesn’t make sense - race isn’t continuous!</p></li>
+<li><p>If you are using a lot of categorical variables and find it awkward to write them out, you can simplify:</p>
+<ul>
+<li>Showing that you have state fixed effects:</li>
+</ul>
+<p><span class="math display">\[y_{st} = \beta_0 + \beta_1 X_{st} + \beta_2 Z_t + ... + f_s + u_{st}\]</span></p>
+<p>and the in the text, “…where <span class="math inline">\(f_s\)</span> is a vector of state fixed effects”</p>
+<ul>
+<li>Including a set of occupational dummy variables
+<span class="math display">\[y_{st} = \beta_0 + \beta_1 X_{st} + \beta_2 Z_t + ... +\sum^K_{s=1}\delta_SD_s + u_{st}\]</span></li>
+</ul>
+<p>and in the text, “…where <span class="math inline">\(D_k\)</span> is a dummy variable for occupation <span class="math inline">\(s\)</span>, from <span class="math inline">\(s \in [1,S]\)</span>” <em>(or something in that general spirit)</em></p></li>
+</ul>
+</div>
 </div>
 <div id="results" class="section level3">
-<h3>Results**</h3>
+<h3>Results</h3>
 <ul>
 <li><p>When using categorical/dummy variables, what is your omitted
 category? Make sure you know and that it’s clear.</p></li>
-<li><p>What are the units of your measures?</p>
-<ul>
-<li>Is that percent or percentage points?</li>
-</ul></li>
+<li><p>What are the units of your measures? Is that percent or percentage points?</p></li>
 <li><p>Discuss using a reasonable number of decimal places (usually only 1
 or 2)</p></li>
 </ul>
 </div>
 <div id="limitations-or-discussion" class="section level3">
-<h3>Limitations or Discussion**</h3>
+<h3>Limitations or Discussion</h3>
 <ul>
 <li><p>Include as a separate section or integrate into results</p></li>
 <li><p>What might us from making causal interpretations about our
@@ -197,7 +206,7 @@ coefficient of interest?</p>
 </ul>
 </div>
 <div id="conclusion" class="section level3">
-<h3>Conclusion**</h3>
+<h3>Conclusion</h3>
 <ul>
 <li><p>Brief summary of paper</p></li>
 <li><p>Limitations (summary of limitations/discussion section)</p></li>
@@ -206,7 +215,7 @@ coefficient of interest?</p>
 </ul>
 </div>
 <div id="tables-and-figures" class="section level3">
-<h3>Tables and Figures**</h3>
+<h3>Tables and Figures</h3>
 <ul>
 <li><p>Tables should be properly formatted. That is, they should be made in
 Excel (or LaTeX) and NEVER copied and pasted out of Stata</p></li>
@@ -224,7 +233,7 @@ no place for a number like 0.05403823 or 0.0000000 in your tables.</p></li>
 </ul>
 </div>
 <div id="references" class="section level3">
-<h3>References**</h3>
+<h3>References</h3>
 <ul>
 <li><p>Use footnotes rather than endnotes</p></li>
 <li><p>At the end of your paper, include list of references cited</p></li>
@@ -236,23 +245,196 @@ no place for a number like 0.05403823 or 0.0000000 in your tables.</p></li>
 (Author Year, Author Year)</p></li>
 </ul>
 </div>
-<div id="working-with-data" class="section level3">
-<h3>Working with data**</h3>
-<ul>
-<li>What is the unit of observation? Is it people, households, states,
-etc? Make sure the unit is appropriate to your question</li>
-</ul>
-<div id="if-youre-working-with-individual-level-data" class="section level4">
-<h4>If you’re working with individual-level data…*</h4>
-<ul>
-<li><p>What is the age range you want in your sample?</p></li>
-<li><p>What years of data do you need?</p></li>
-<li><p>If in the US, do you want citizens, or do you also want to include
-immigrants?</p></li>
-<li><p>If dealing with labor force variables, do you want all people of
-working age, all those who are in the labor force, or all who are
-employed?</p></li>
-</ul>
 </div>
-</div>
+<div id="rubric" class="section level2">
+<h2>Rubric</h2>
+<p>Download rubric <a href="../materials/RP_Rubric_F20.pdf">here</a></p>
+<table style="width:100%;">
+<colgroup>
+<col width="10%" />
+<col width="25%" />
+<col width="22%" />
+<col width="22%" />
+<col width="18%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Total: 100 marks</th>
+<th>100 = Excellent</th>
+<th>80 = Adequate</th>
+<th>60 = Marginal</th>
+<th>40 = Poor</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Motivation/Literature (18 marks)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Introduction</td>
+<td>Introduction provides complete overview of paper, motivates research question using sources</td>
+<td>Introduction provides some overiew of paper, motivation clear with limited sources</td>
+<td>Introduction vague; motivation minimal</td>
+<td>Incomplete introduction, no motivation</td>
+</tr>
+<tr class="odd">
+<td>Research question</td>
+<td>Research question well identified, specific</td>
+<td>Research question stated, not specific</td>
+<td>Research question vague, not answerable</td>
+<td>Cannot identify research question in paper</td>
+</tr>
+<tr class="even">
+<td>Literature</td>
+<td>Important literature discussed and linked to topic</td>
+<td>Important literature included, not linked to research question/paper</td>
+<td>Scattered lit. discussion, poorly linked to topic (missing or irrelevant papers)</td>
+<td>Sparse literature, not linked to topic</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Methodology/Analysis (30 marks)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Data</td>
+<td>Clear discussion of data sources and any data cleaning; data cleaned appropriately</td>
+<td>Data sources referenced but incomplete discussion; some data issues overlooked</td>
+<td>Limited discussion of data</td>
+<td>No discussion of data sources or cleaning</td>
+</tr>
+<tr class="even">
+<td>Empirical methods</td>
+<td>Methodology discussed and empirical methods applied correctly</td>
+<td>Methodology generally correct, with some issues overlooked</td>
+<td>Major errors in empirical methods</td>
+<td>Fundamental misunderstanding of empirical methods/no microdata used</td>
+</tr>
+<tr class="odd">
+<td>Discussion of results</td>
+<td>Results discussed and interpreted clearly</td>
+<td>Results discussed, but inadequate interpretation</td>
+<td>Results presented without interpretation</td>
+<td>Poor discussion of results, no interpretation</td>
+</tr>
+<tr class="even">
+<td>Choice of evidence</td>
+<td>Presented evidence addresses research question, is well utilized</td>
+<td>Presented evidence related, only partially addresses research question</td>
+<td>Evidence related, but not directly relevant to research question.</td>
+<td>Evidence does not address research question</td>
+</tr>
+<tr class="odd">
+<td>Figures and tables</td>
+<td>Figures and tables appropriate to analysis, easy to interpret</td>
+<td>Appropriate figures/tables included, difficult to interpret</td>
+<td>Irrelevant figures/tables included or key figures/tables missing</td>
+<td>Insufficient figures/tables, poorly presented</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Limitations</td>
+<td>Limitations discussed and minimized through analysis</td>
+<td>Limitations discussed, few steps to minimize</td>
+<td>Incomplete discussion of limitations</td>
+<td>No discussion of limitations</td>
+</tr>
+<tr class="even">
+<td>Conclusions/interpretation (18 marks)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Conclusions</td>
+<td>Clear presentation of conclusions, qualifications, consequences, and contributions</td>
+<td>Conclusions established, limited discussion implications and contributions</td>
+<td>Fails to make clear conclusions, limited discussion of interpretation/contributions</td>
+<td>Cannot discern conclusions</td>
+</tr>
+<tr class="even">
+<td>Critical thinking</td>
+<td>Demonstrates independent and critical thinking</td>
+<td>Demonstrates some independent and critical thinking</td>
+<td>Limited evidence of independent and critical thinking</td>
+<td>No evidence of independent and critical thinking</td>
+</tr>
+<tr class="odd">
+<td>Argumentation</td>
+<td>Assertions are qualified and well supported</td>
+<td>Most assertions are qualified and well supported</td>
+<td>Assertions are overly strong or unsupported</td>
+<td>Assertions made in contrast to evidence or without evidence</td>
+</tr>
+<tr class="even">
+<td>Written presentation (24 marks)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Organization</td>
+<td>Well organized, easy to understand</td>
+<td>Good organization, some parts out of place</td>
+<td>Unclear organization</td>
+<td>Disorganized, impedes understanding</td>
+</tr>
+<tr class="even">
+<td>Writing style</td>
+<td>Clear and easy to read</td>
+<td>Awkward or wordy writing, clear planning</td>
+<td>Readable but difficult to follow</td>
+<td>Difficult to understand</td>
+</tr>
+<tr class="odd">
+<td>Grammar</td>
+<td>Few grammatical and typographical errors</td>
+<td>Some grammatical and typographical errors, but do not impede understanding</td>
+<td>Moderate grammatical errors/typos</td>
+<td>Frequent errors impede understanding</td>
+</tr>
+<tr class="even">
+<td>Formatting</td>
+<td>Meets all formatting requirements</td>
+<td>Minor deviation from formatting requirements</td>
+<td>Exceeds page limit/major deviation from formatting requirements</td>
+<td>Formatting requirements completely disregarded</td>
+</tr>
+<tr class="odd">
+<td>Replication code (10 marks)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Do-files and log</td>
+<td>Well-documented, easy to read</td>
+<td>Detailed documentation, somewhat confusing</td>
+<td>Unclear documentation</td>
+<td>Little to no documentation</td>
+</tr>
+</tbody>
+</table>
 </div>
